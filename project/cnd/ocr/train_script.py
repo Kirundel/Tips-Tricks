@@ -1,11 +1,14 @@
 import argparse
 
+import warnings
+warnings.simplefilter("ignore")
+
 from torch.utils.data import DataLoader
-from cnd.ocr.dataset import OcrDataset
-from cnd.ocr.model import CRNN
-from cnd.config import OCR_EXPERIMENTS_DIR, CONFIG_PATH, Config
-from cnd.ocr.transforms import get_transforms
-from cnd.ocr.metrics import WrapCTCLoss
+from Dataset.CropDataset import CropDataset
+from model import CRNN
+from config import OCR_EXPERIMENTS_DIR, CONFIG_PATH, Config
+from transforms import get_transforms
+from metrics import WrapCTCLoss
 from catalyst.dl import SupervisedRunner, CheckpointCallback
 import string
 from pathlib import Path
@@ -34,16 +37,25 @@ DATASET_PATHS = [
 # CHANGE YOUR BATCH SIZE
 BATCH_SIZE = 100
 # 400 EPOCH SHOULD BE ENOUGH
-NUM_EPOCHS = 400
+NUM_EPOCHS = 100
 
 alphabet = " "
 alphabet += string.ascii_uppercase
 alphabet += "".join([str(i) for i in range(10)])
 
 MODEL_PARAMS = {
-    # TODO: DEFINE PARAMS
-
+    'image_height': 32,
+    'number_input_channels': 3,
+    'number_class_symbols': len(alphabet),
+    'rnn_size': 12
 }
+
+if torch.cuda.is_available():
+    device = torch.device("cuda:0")
+    print("cuda enabled")
+else:
+    device = torch.device("cpu:0")
+    print("cuda disabled")
 
 if __name__ == "__main__":
     if EXPERIMENT_DIR.exists():
@@ -51,10 +63,11 @@ if __name__ == "__main__":
     else:
         EXPERIMENT_DIR.mkdir(parents=True, exist_ok=True)
 
-    transforms =  # TODO: define your transforms here
+    transforms = get_transforms(device)
     # define data path
 
-    train_dataset =  # define your dataset
+    dataset = CropDataset(transforms=transforms, cached=False)
+    train_dataset = dataset.Train # define your dataset
 
     train_loader = DataLoader(
         train_dataset,
@@ -65,11 +78,11 @@ if __name__ == "__main__":
     )
     # IT IS BETTER TO SPLIT DATA INTO TRAIN|VAL AND USE METRICS ON VAL
     # val_dataset_paths = [p / "val" for p in DATASET_PATHS]
-    # val_dataset = ConcatDataset([OcrDataset(p) for p in val_dataset_paths])
+    val_dataset = dataset.Validate
     #
-    # val_loader = DataLoader(
-    #     val_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=4
-    # )
+    val_loader = DataLoader(
+        val_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=4
+    )
 
     model = CRNN(**MODEL_PARAMS)
     # YOU CAN ADD CALLBACK IF IT NEEDED, FIND MORE IN
@@ -86,7 +99,7 @@ if __name__ == "__main__":
         optimizer=optimizer,
         scheduler=scheduler,
         loaders={'train': train_loader, "valid": val_loader},
-        logdir="./logs/ocr",
+        logdir="./logs",
         num_epochs=NUM_EPOCHS,
         verbose=True,
         callbacks=callbacks

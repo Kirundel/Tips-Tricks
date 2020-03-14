@@ -1,5 +1,5 @@
 import torch.nn as nn
-from cnd.ocr.converter import strLabelConverter
+from converter import strLabelConverter
 from catalyst.utils.torch import any2device
 import torch
 
@@ -8,7 +8,7 @@ class WrapCTCLoss(nn.Module):
         super().__init__()
         self.converter = strLabelConverter(alphabet)
         self.device = device
-        self.loss = nn.CTCLoss()
+        self.loss = nn.CTCLoss(reduction='sum', zero_infinity=False)
 
     def preds_converter(self, logits, len_images):
         preds_size = torch.IntTensor([logits.size(0)] * len_images)
@@ -18,7 +18,8 @@ class WrapCTCLoss(nn.Module):
         return sim_preds, preds_size
 
     def __call__(self, logits, targets):
-        text, length = #CONVERT TARGETS TO INT BY CONVERTER AND MOVE TEXT TO DEVICE
+        text, length = self.converter.encode(targets)
+        text, length = text.to(self.device), length.to(self.device)
         sim_preds, preds_size = self.preds_converter(logits, len(targets))
         loss = self.loss(logits, text, preds_size, length)
         return loss

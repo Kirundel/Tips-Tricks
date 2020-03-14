@@ -104,3 +104,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+/project/cnd/ocr/Dataset/FullPlate/
+/project/cnd/ocr/Dataset/CropNumbers/
+/project/cnd/ocr/Dataset/DatasetOptimization.ipynb
