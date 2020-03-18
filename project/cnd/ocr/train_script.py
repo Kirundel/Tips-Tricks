@@ -4,7 +4,7 @@ import warnings
 warnings.simplefilter("ignore")
 
 from torch.utils.data import DataLoader
-from Dataset.CropDataset import CropDataset
+from Dataset.CropDataset import CropDataset, GeneratedDataset
 from model import CRNN
 from config import OCR_EXPERIMENTS_DIR, CONFIG_PATH, Config
 from transforms import get_transforms
@@ -37,17 +37,20 @@ DATASET_PATHS = [
 # CHANGE YOUR BATCH SIZE
 BATCH_SIZE = 100
 # 400 EPOCH SHOULD BE ENOUGH
-NUM_EPOCHS = 100
+NUM_EPOCHS = 200
+#NUM_EPOCHS = 25
 
-alphabet = " "
-alphabet += string.ascii_uppercase
-alphabet += "".join([str(i) for i in range(10)])
+#alphabet = " "
+#alphabet += string.ascii_uppercase
+#alphabet += "".join([str(i) for i in range(10)])
+
+alphabet = 'ABEKMHOPCTYX' + '0123456789' + '-'
 
 MODEL_PARAMS = {
     'image_height': 32,
-    'number_input_channels': 3,
+    'number_input_channels': 1,
     'number_class_symbols': len(alphabet),
-    'rnn_size': 12
+    'rnn_size': 64
 }
 
 if torch.cuda.is_available():
@@ -66,7 +69,8 @@ if __name__ == "__main__":
     transforms = get_transforms(device)
     # define data path
 
-    dataset = CropDataset(transforms=transforms, cached=False)
+    #dataset = CropDataset(transforms=transforms, cached=False)
+    dataset = GeneratedDataset(transforms = transforms, cached=False)
     train_dataset = dataset.Train # define your dataset
 
     train_loader = DataLoader(

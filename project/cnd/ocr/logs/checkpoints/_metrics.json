@@ -1,1186 +1,2286 @@
 {
   "best": {
-    "loss": 1936.7330749511718,
-    "_timer/data_time": 0.3340963363647461,
-    "_timer/model_time": 0.14343709945678712,
-    "_timer/batch_time": 0.4775439739227295,
-    "_timer/_fps": 898.1969793175556
+    "loss": 1.109831752255559,
+    "_timer/data_time": 0.15690910816192627,
+    "_timer/model_time": 0.15820372104644775,
+    "_timer/batch_time": 0.31512407461802167,
+    "_timer/_fps": 752.2803875323268
   },
   "last": {
-    "loss": 8748.941943359376,
-    "_timer/data_time": 0.35381841659545904,
-    "_timer/model_time": 0.1537485122680664,
-    "_timer/batch_time": 0.5075810432434082,
-    "_timer/_fps": 784.3798105832411
+    "loss": 1.4052194271547098,
+    "_timer/data_time": 0.17813448111216226,
+    "_timer/model_time": 0.18721381823221842,
+    "_timer/batch_time": 0.36536304155985516,
+    "_timer/_fps": 673.3186205314057
   },
-  "train.2": {
-    "loss": 1936.7330749511718,
-    "_timer/data_time": 0.3340963363647461,
-    "_timer/model_time": 0.14343709945678712,
-    "_timer/batch_time": 0.4775439739227295,
-    "_timer/_fps": 898.1969793175556
+  "train.131": {
+    "loss": 1.109831752255559,
+    "_timer/data_time": 0.15690910816192627,
+    "_timer/model_time": 0.15820372104644775,
+    "_timer/batch_time": 0.31512407461802167,
+    "_timer/_fps": 752.2803875323268
   },
-  "train.3": {
-    "loss": 2026.6769470214845,
-    "_timer/data_time": 0.3238970756530762,
-    "_timer/model_time": 0.14762282371520996,
-    "_timer/batch_time": 0.47153844833374026,
-    "_timer/_fps": 818.3774243075952
+  "train.142": {
+    "loss": 1.1966700218617916,
+    "_timer/data_time": 0.16974588235219318,
+    "_timer/model_time": 0.1552080710728963,
+    "_timer/batch_time": 0.3249654372533163,
+    "_timer/_fps": 799.116577356865
   },
-  "train.4": {
-    "loss": 2464.8184814453125,
-    "_timer/data_time": 0.3422894001007081,
-    "_timer/model_time": 0.16798200607299804,
-    "_timer/batch_time": 0.5102850437164307,
-    "_timer/_fps": 712.1608153569052
+  "train.143": {
+    "loss": 1.1997809006522098,
+    "_timer/data_time": 0.16554784774780273,
+    "_timer/model_time": 0.1599745750427246,
+    "_timer/batch_time": 0.3255329926808675,
+    "_timer/_fps": 771.7753177043151
   },
-  "train.1": {
-    "loss": 3082.4482421875,
-    "_timer/data_time": 0.31957807540893557,
-    "_timer/model_time": 0.1397230625152588,
-    "_timer/batch_time": 0.45931382179260255,
-    "_timer/_fps": 1076.1963528540568
+  "train.138": {
+    "loss": 1.2108461267004411,
+    "_timer/data_time": 0.16478208700815838,
+    "_timer/model_time": 0.15493102868398032,
+    "_timer/batch_time": 0.3197249174118042,
+    "_timer/_fps": 744.5808414063985
   },
-  "train.5": {
-    "loss": 3298.6267700195312,
-    "_timer/data_time": 0.33484973907470705,
-    "_timer/model_time": 0.15443005561828613,
-    "_timer/batch_time": 0.4892899990081787,
-    "_timer/_fps": 911.4016915788644
+  "train.139": {
+    "loss": 1.2294730016340811,
+    "_timer/data_time": 0.17223529020945233,
+    "_timer/model_time": 0.16100072860717773,
+    "_timer/batch_time": 0.33324853579203284,
+    "_timer/_fps": 748.2445190438307
   },
-  "train.6": {
-    "loss": 4130.09697265625,
-    "_timer/data_time": 0.342031192779541,
-    "_timer/model_time": 0.1812882423400879,
-    "_timer/batch_time": 0.5233321189880371,
-    "_timer/_fps": 880.8484707053789
+  "train.130": {
+    "loss": 1.239763979179164,
+    "_timer/data_time": 0.1661640405654907,
+    "_timer/model_time": 0.15617295106252035,
+    "_timer/batch_time": 0.3223475217819214,
+    "_timer/_fps": 749.4757389635112
   },
-  "train.7": {
-    "loss": 5066.1271484375,
-    "_timer/data_time": 0.30988593101501466,
-    "_timer/model_time": 0.13894152641296387,
-    "_timer/batch_time": 0.44884042739868163,
-    "_timer/_fps": 936.801179818282
+  "train.132": {
+    "loss": 1.2410389066984258,
+    "_timer/data_time": 0.16607773303985596,
+    "_timer/model_time": 0.15228645006815592,
+    "_timer/batch_time": 0.31837435563405353,
+    "_timer/_fps": 800.815908354636
   },
-  "train.8": {
-    "loss": 6189.529052734375,
-    "_timer/data_time": 0.31955800056457523,
-    "_timer/model_time": 0.1497032642364502,
-    "_timer/batch_time": 0.4692716598510742,
-    "_timer/_fps": 880.3172780314995
+  "train.129": {
+    "loss": 1.2439217399805784,
+    "_timer/data_time": 0.16107845306396484,
+    "_timer/model_time": 0.15372367699941,
+    "_timer/batch_time": 0.31481460730234784,
+    "_timer/_fps": 733.8598788089761
   },
-  "train.9": {
-    "loss": 7355.663647460938,
-    "_timer/data_time": 0.32545499801635747,
-    "_timer/model_time": 0.16769189834594728,
-    "_timer/batch_time": 0.49315876960754396,
-    "_timer/_fps": 887.6430765518343
+  "train.176": {
+    "loss": 1.245594917330891,
+    "_timer/data_time": 0.16442644596099856,
+    "_timer/model_time": 0.14412780602773032,
+    "_timer/batch_time": 0.3085659344991048,
+    "_timer/_fps": 831.307628177487
   },
-  "train.10": {
-    "loss": 8339.269848632812,
-    "_timer/data_time": 0.35144000053405766,
-    "_timer/model_time": 0.16690545082092284,
-    "_timer/batch_time": 0.5183589935302735,
-    "_timer/_fps": 740.2351807583864
+  "train.144": {
+    "loss": 1.250456445850432,
+    "_timer/data_time": 0.16551434993743896,
+    "_timer/model_time": 0.1503974994023641,
+    "_timer/batch_time": 0.31592273712158203,
+    "_timer/_fps": 807.610340287584
   },
   "epoch_0": [
     "logs/checkpoints/train.1.pth",
-    3082.4482421875,
+    1666.352335611979,
     {
-      "loss": 3082.4482421875,
-      "_timer/data_time": 0.31957807540893557,
-      "_timer/model_time": 0.1397230625152588,
-      "_timer/batch_time": 0.45931382179260255,
-      "_timer/_fps": 1076.1963528540568
+      "loss": 1666.352335611979,
+      "_timer/data_time": 0.13084034125010172,
+      "_timer/model_time": 0.17907337347666422,
+      "_timer/batch_time": 0.3099252780278524,
+      "_timer/_fps": 714.0170356187487
     }
   ],
   "epoch_1": [
     "logs/checkpoints/train.2.pth",
-    1936.7330749511718,
+    1478.7174275716145,
     {
-      "loss": 1936.7330749511718,
-      "_timer/data_time": 0.3340963363647461,
-      "_timer/model_time": 0.14343709945678712,
-      "_timer/batch_time": 0.4775439739227295,
-      "_timer/_fps": 898.1969793175556
+      "loss": 1478.7174275716145,
+      "_timer/data_time": 0.14793332417805988,
+      "_timer/model_time": 0.12731715043385824,
+      "_timer/batch_time": 0.2752606471379598,
+      "_timer/_fps": 953.8240996412036
     }
   ],
   "epoch_2": [
     "logs/checkpoints/train.3.pth",
-    2026.6769470214845,
+    1449.5038859049478,
     {
-      "loss": 2026.6769470214845,
-      "_timer/data_time": 0.3238970756530762,
-      "_timer/model_time": 0.14762282371520996,
-      "_timer/batch_time": 0.47153844833374026,
-      "_timer/_fps": 818.3774243075952
+      "loss": 1449.5038859049478,
+      "_timer/data_time": 0.15048929055531818,
+      "_timer/model_time": 0.1342779000600179,
+      "_timer/batch_time": 0.2847784757614136,
+      "_timer/_fps": 992.7780873102548
     }
   ],
   "epoch_3": [
     "logs/checkpoints/train.4.pth",
-    2464.8184814453125,
+    1432.453638712565,
     {
-      "loss": 2464.8184814453125,
-      "_timer/data_time": 0.3422894001007081,
-      "_timer/model_time": 0.16798200607299804,
-      "_timer/batch_time": 0.5102850437164307,
-      "_timer/_fps": 712.1608153569052
+      "loss": 1432.453638712565,
+      "_timer/data_time": 0.15249049663543698,
+      "_timer/model_time": 0.14414838949839273,
+      "_timer/batch_time": 0.29664989312489826,
+      "_timer/_fps": 852.8429251463756
     }
   ],
   "epoch_4": [
     "logs/checkpoints/train.5.pth",
-    3298.6267700195312,
+    1426.4715372721355,
     {
-      "loss": 3298.6267700195312,
-      "_timer/data_time": 0.33484973907470705,
-      "_timer/model_time": 0.15443005561828613,
-      "_timer/batch_time": 0.4892899990081787,
-      "_timer/_fps": 911.4016915788644
+      "loss": 1426.4715372721355,
+      "_timer/data_time": 0.1495216687520345,
+      "_timer/model_time": 0.1490360101064046,
+      "_timer/batch_time": 0.2985697189966837,
+      "_timer/_fps": 807.3880149281724
     }
   ],
   "epoch_5": [
     "logs/checkpoints/train.6.pth",
-    4130.09697265625,
+    1425.3600362141926,
     {
-      "loss": 4130.09697265625,
-      "_timer/data_time": 0.342031192779541,
-      "_timer/model_time": 0.1812882423400879,
-      "_timer/batch_time": 0.5233321189880371,
-      "_timer/_fps": 880.8484707053789
+      "loss": 1425.3600362141926,
+      "_timer/data_time": 0.15241424242655438,
+      "_timer/model_time": 0.14113171895345053,
+      "_timer/batch_time": 0.2935569683710734,
+      "_timer/_fps": 885.3917678095061
     }
   ],
   "epoch_6": [
     "logs/checkpoints/train.7.pth",
-    5066.1271484375,
+    1427.39773050944,
     {
-      "loss": 5066.1271484375,
-      "_timer/data_time": 0.30988593101501466,
-      "_timer/model_time": 0.13894152641296387,
-      "_timer/batch_time": 0.44884042739868163,
-      "_timer/_fps": 936.801179818282
+      "loss": 1427.39773050944,
+      "_timer/data_time": 0.15330223242441812,
+      "_timer/model_time": 0.13595569133758545,
+      "_timer/batch_time": 0.2892686128616333,
+      "_timer/_fps": 842.5597776315111
     }
   ],
   "epoch_7": [
     "logs/checkpoints/train.8.pth",
-    6189.529052734375,
+    1505.8084157307942,
     {
-      "loss": 6189.529052734375,
-      "_timer/data_time": 0.31955800056457523,
-      "_timer/model_time": 0.1497032642364502,
-      "_timer/batch_time": 0.4692716598510742,
-      "_timer/_fps": 880.3172780314995
+      "loss": 1505.8084157307942,
+      "_timer/data_time": 0.1501122713088989,
+      "_timer/model_time": 0.134904940923055,
+      "_timer/batch_time": 0.28502821922302246,
+      "_timer/_fps": 941.8706306805941
     }
   ],
   "epoch_8": [
     "logs/checkpoints/train.9.pth",
-    7355.663647460938,
+    1488.8833719889324,
     {
-      "loss": 7355.663647460938,
-      "_timer/data_time": 0.32545499801635747,
-      "_timer/model_time": 0.16769189834594728,
-      "_timer/batch_time": 0.49315876960754396,
-      "_timer/_fps": 887.6430765518343
+      "loss": 1488.8833719889324,
+      "_timer/data_time": 0.14493258794148764,
+      "_timer/model_time": 0.13359065850575763,
+      "_timer/batch_time": 0.27853326002756756,
+      "_timer/_fps": 984.0488765197841
     }
   ],
   "epoch_9": [
     "logs/checkpoints/train.10.pth",
-    8339.269848632812,
+    1215.2769775390625,
     {
-      "loss": 8339.269848632812,
-      "_timer/data_time": 0.35144000053405766,
-      "_timer/model_time": 0.16690545082092284,
-      "_timer/batch_time": 0.5183589935302735,
-      "_timer/_fps": 740.2351807583864
+      "loss": 1215.2769775390625,
+      "_timer/data_time": 0.15576982498168945,
+      "_timer/model_time": 0.1454712152481079,
+      "_timer/batch_time": 0.30125315984090173,
+      "_timer/_fps": 875.2282160799543
     }
   ],
   "epoch_10": [
     "logs/checkpoints/train.11.pth",
-    8707.930078125,
+    855.0408782958984,
     {
-      "loss": 8707.930078125,
-      "_timer/data_time": 0.32234473228454585,
-      "_timer/model_time": 0.1444767475128174,
-      "_timer/batch_time": 0.46683392524719236,
-      "_timer/_fps": 933.109348333368
+      "loss": 855.0408782958984,
+      "_timer/data_time": 0.15896046161651614,
+      "_timer/model_time": 0.13794970512390137,
+      "_timer/batch_time": 0.29692089557647705,
+      "_timer/_fps": 915.5523346390646
     }
   ],
   "epoch_11": [
     "logs/checkpoints/train.12.pth",
-    8743.7701171875,
+    1138.3832651774087,
     {
-      "loss": 8743.7701171875,
-      "_timer/data_time": 0.33273267745971685,
-      "_timer/model_time": 0.1432178020477295,
-      "_timer/batch_time": 0.47596278190612795,
-      "_timer/_fps": 839.779910703339
+      "loss": 1138.3832651774087,
+      "_timer/data_time": 0.15456589063008624,
+      "_timer/model_time": 0.1475520133972168,
+      "_timer/batch_time": 0.30213097731272376,
+      "_timer/_fps": 829.5465355147624
     }
   ],
   "epoch_12": [
     "logs/checkpoints/train.13.pth",
-    8748.69150390625,
+    437.6781705220541,
     {
-      "loss": 8748.69150390625,
-      "_timer/data_time": 0.31287317276000975,
-      "_timer/model_time": 0.14988083839416505,
-      "_timer/batch_time": 0.46276631355285647,
-      "_timer/_fps": 849.8784448332726
+      "loss": 437.6781705220541,
+      "_timer/data_time": 0.16227118174235028,
+      "_timer/model_time": 0.14688543478647867,
+      "_timer/batch_time": 0.30916722615559894,
+      "_timer/_fps": 863.2445849739887
     }
   ],
   "epoch_13": [
     "logs/checkpoints/train.14.pth",
-    8748.7408203125,
+    245.63382784525552,
     {
-      "loss": 8748.7408203125,
-      "_timer/data_time": 0.3423747062683105,
-      "_timer/model_time": 0.1563577651977539,
-      "_timer/batch_time": 0.4987441062927246,
-      "_timer/_fps": 824.3823736452781
+      "loss": 245.63382784525552,
+      "_timer/data_time": 0.15508162975311282,
+      "_timer/model_time": 0.1566243569056193,
+      "_timer/batch_time": 0.3117161194483439,
+      "_timer/_fps": 808.7248272091845
     }
   ],
   "epoch_14": [
     "logs/checkpoints/train.15.pth",
-    8748.74091796875,
+    102.41500949859619,
     {
-      "loss": 8748.74091796875,
-      "_timer/data_time": 0.3307080268859864,
-      "_timer/model_time": 0.1496671199798584,
-      "_timer/batch_time": 0.4803856372833252,
-      "_timer/_fps": 845.4995795906189
+      "loss": 102.41500949859619,
+      "_timer/data_time": 0.16082441806793213,
+      "_timer/model_time": 0.1587601105372111,
+      "_timer/batch_time": 0.31959644953409827,
+      "_timer/_fps": 740.9009882306175
     }
   ],
   "epoch_15": [
     "logs/checkpoints/train.16.pth",
-    8748.70810546875,
+    57.099352518717446,
     {
-      "loss": 8748.70810546875,
-      "_timer/data_time": 0.33081130981445317,
-      "_timer/model_time": 0.15144672393798828,
-      "_timer/batch_time": 0.4822696685791016,
-      "_timer/_fps": 794.4575185390369
+      "loss": 57.099352518717446,
+      "_timer/data_time": 0.16321881612141925,
+      "_timer/model_time": 0.17464025815327963,
+      "_timer/batch_time": 0.33787508805592853,
+      "_timer/_fps": 702.3321731052623
     }
   ],
   "epoch_16": [
     "logs/checkpoints/train.17.pth",
-    8748.6958984375,
+    30.77849364280701,
     {
-      "loss": 8748.6958984375,
-      "_timer/data_time": 0.3426665306091308,
-      "_timer/model_time": 0.14773550033569335,
-      "_timer/batch_time": 0.49041357040405276,
-      "_timer/_fps": 799.5442518170721
+      "loss": 30.77849364280701,
+      "_timer/data_time": 0.1534545421600342,
+      "_timer/model_time": 0.19349201520284018,
+      "_timer/batch_time": 0.3469578425089518,
+      "_timer/_fps": 718.7667480830414
     }
   ],
   "epoch_17": [
     "logs/checkpoints/train.18.pth",
-    8748.6994140625,
+    23.085615714391075,
     {
-      "loss": 8748.6994140625,
-      "_timer/data_time": 0.3235569477081298,
-      "_timer/model_time": 0.14862427711486817,
-      "_timer/batch_time": 0.472194242477417,
-      "_timer/_fps": 887.0613115215539
+      "loss": 23.085615714391075,
+      "_timer/data_time": 0.15574991703033447,
+      "_timer/model_time": 0.15274171034495035,
+      "_timer/batch_time": 0.30850207805633545,
+      "_timer/_fps": 809.2734623766291
     }
   ],
   "epoch_18": [
     "logs/checkpoints/train.19.pth",
-    8748.744873046875,
+    15.933460156122843,
     {
-      "loss": 8748.744873046875,
-      "_timer/data_time": 0.31200103759765624,
-      "_timer/model_time": 0.14848966598510743,
-      "_timer/batch_time": 0.46050357818603516,
-      "_timer/_fps": 842.1919608234028
+      "loss": 15.933460156122843,
+      "_timer/data_time": 0.1639260450998942,
+      "_timer/model_time": 0.1875311533610026,
+      "_timer/batch_time": 0.3514700333277384,
+      "_timer/_fps": 669.7534724582583
     }
   ],
   "epoch_19": [
     "logs/checkpoints/train.20.pth",
-    8748.791650390625,
+    26.80299671490987,
     {
-      "loss": 8748.791650390625,
-      "_timer/data_time": 0.3367387771606445,
-      "_timer/model_time": 0.14869422912597657,
-      "_timer/batch_time": 0.485444164276123,
-      "_timer/_fps": 797.6150005022671
+      "loss": 26.80299671490987,
+      "_timer/data_time": 0.16109049320220947,
+      "_timer/model_time": 0.1516742706298828,
+      "_timer/batch_time": 0.31277569135030114,
+      "_timer/_fps": 809.557993518399
     }
   ],
   "epoch_20": [
     "logs/checkpoints/train.21.pth",
-    8748.725341796875,
+    17.43744055430094,
     {
-      "loss": 8748.725341796875,
-      "_timer/data_time": 0.3417971611022949,
-      "_timer/model_time": 0.15372066497802733,
-      "_timer/batch_time": 0.4955319881439209,
-      "_timer/_fps": 821.5087781329999
+      "loss": 17.43744055430094,
+      "_timer/data_time": 0.14094003041585285,
+      "_timer/model_time": 0.17297414938608804,
+      "_timer/batch_time": 0.31392522652943927,
+      "_timer/_fps": 804.089474376631
     }
   ],
   "epoch_21": [
     "logs/checkpoints/train.22.pth",
-    8748.76845703125,
+    14.429254253705343,
     {
-      "loss": 8748.76845703125,
-      "_timer/data_time": 0.35128731727600104,
-      "_timer/model_time": 0.163513708114624,
-      "_timer/batch_time": 0.5148150444030761,
-      "_timer/_fps": 781.5739146169224
+      "loss": 14.429254253705343,
+      "_timer/data_time": 0.15086138248443604,
+      "_timer/model_time": 0.15302236874898273,
+      "_timer/batch_time": 0.3038937250773112,
+      "_timer/_fps": 775.2544389845309
     }
   ],
   "epoch_22": [
     "logs/checkpoints/train.23.pth",
-    8748.6798828125,
+    890.3641052246095,
     {
-      "loss": 8748.6798828125,
-      "_timer/data_time": 0.3561768531799316,
-      "_timer/model_time": 0.16036510467529297,
-      "_timer/batch_time": 0.5165532112121582,
-      "_timer/_fps": 765.7682386936895
+      "loss": 890.3641052246095,
+      "_timer/data_time": 0.1518115202585856,
+      "_timer/model_time": 0.15071507294972739,
+      "_timer/batch_time": 0.302537202835083,
+      "_timer/_fps": 804.4662412015493
     }
   ],
   "epoch_23": [
     "logs/checkpoints/train.24.pth",
-    8748.75439453125,
+    27.212689836819965,
     {
-      "loss": 8748.75439453125,
-      "_timer/data_time": 0.36358280181884767,
-      "_timer/model_time": 0.18337569236755372,
-      "_timer/batch_time": 0.5469708919525147,
-      "_timer/_fps": 750.2532523661326
+      "loss": 27.212689836819965,
+      "_timer/data_time": 0.14981210231781006,
+      "_timer/model_time": 0.1595704158147176,
+      "_timer/batch_time": 0.30939412117004395,
+      "_timer/_fps": 772.8909046906946
     }
   ],
   "epoch_24": [
     "logs/checkpoints/train.25.pth",
-    8748.695751953124,
+    11.703921874364216,
     {
-      "loss": 8748.695751953124,
-      "_timer/data_time": 0.33805732727050775,
-      "_timer/model_time": 0.16696105003356934,
-      "_timer/batch_time": 0.5050314426422119,
-      "_timer/_fps": 814.0253567606576
+      "loss": 11.703921874364216,
+      "_timer/data_time": 0.1458735466003418,
+      "_timer/model_time": 0.1581203540166219,
+      "_timer/batch_time": 0.30400470892588294,
+      "_timer/_fps": 787.7363485613685
     }
   ],
   "epoch_25": [
     "logs/checkpoints/train.26.pth",
-    8748.76162109375,
+    8.61779115597407,
     {
-      "loss": 8748.76162109375,
-      "_timer/data_time": 0.3350648403167725,
-      "_timer/model_time": 0.1637965202331543,
-      "_timer/batch_time": 0.49887537956237793,
-      "_timer/_fps": 842.8157602528211
+      "loss": 8.61779115597407,
+      "_timer/data_time": 0.15476179122924805,
+      "_timer/model_time": 0.1541459560394287,
+      "_timer/batch_time": 0.30891807874043786,
+      "_timer/_fps": 788.1481462145837
     }
   ],
   "epoch_26": [
     "logs/checkpoints/train.27.pth",
-    8748.759375,
+    6.709510326385498,
     {
-      "loss": 8748.759375,
-      "_timer/data_time": 0.3341997623443604,
-      "_timer/model_time": 0.15964794158935547,
-      "_timer/batch_time": 0.49386000633239746,
-      "_timer/_fps": 805.3972427847677
+      "loss": 6.709510326385498,
+      "_timer/data_time": 0.15342398484547934,
+      "_timer/model_time": 0.1541813611984253,
+      "_timer/batch_time": 0.3076159556706747,
+      "_timer/_fps": 791.5591934715735
     }
   ],
   "epoch_27": [
     "logs/checkpoints/train.28.pth",
-    8748.67626953125,
+    5.962839861710866,
     {
-      "loss": 8748.67626953125,
-      "_timer/data_time": 0.33798823356628416,
-      "_timer/model_time": 0.1673837661743164,
-      "_timer/batch_time": 0.5053841590881347,
-      "_timer/_fps": 873.7823592574401
+      "loss": 5.962839861710866,
+      "_timer/data_time": 0.18963940938313803,
+      "_timer/model_time": 0.18042683601379395,
+      "_timer/batch_time": 0.37007971604665124,
+      "_timer/_fps": 684.7736749386958
     }
   ],
   "epoch_28": [
     "logs/checkpoints/train.29.pth",
-    8748.766748046875,
+    5.376891613006592,
     {
-      "loss": 8748.766748046875,
-      "_timer/data_time": 0.33975596427917487,
-      "_timer/model_time": 0.17078251838684083,
-      "_timer/batch_time": 0.5105539321899414,
-      "_timer/_fps": 783.2438766110065
+      "loss": 5.376891613006592,
+      "_timer/data_time": 0.15876885255177814,
+      "_timer/model_time": 0.1607977549235026,
+      "_timer/batch_time": 0.3195780118306478,
+      "_timer/_fps": 786.2810355661181
     }
   ],
   "epoch_29": [
     "logs/checkpoints/train.30.pth",
-    8748.787255859375,
+    5.180300543705622,
     {
-      "loss": 8748.787255859375,
-      "_timer/data_time": 0.3298371315002442,
-      "_timer/model_time": 0.16837916374206544,
-      "_timer/batch_time": 0.4982293605804443,
-      "_timer/_fps": 813.8700720532967
+      "loss": 5.180300543705622,
+      "_timer/data_time": 0.1522312561670939,
+      "_timer/model_time": 0.17185254891713458,
+      "_timer/batch_time": 0.32409516970316565,
+      "_timer/_fps": 763.3989960398757
     }
   ],
   "epoch_30": [
     "logs/checkpoints/train.31.pth",
-    8748.753076171875,
+    4.701588521401088,
     {
-      "loss": 8748.753076171875,
-      "_timer/data_time": 0.39787092208862307,
-      "_timer/model_time": 0.1870063304901123,
-      "_timer/batch_time": 0.5848897933959961,
-      "_timer/_fps": 779.0099268460606
+      "loss": 4.701588521401088,
+      "_timer/data_time": 0.1553151607513428,
+      "_timer/model_time": 0.15744574864705405,
+      "_timer/batch_time": 0.31277147928873694,
+      "_timer/_fps": 770.763698025923
     }
   ],
   "epoch_31": [
     "logs/checkpoints/train.32.pth",
-    8748.698876953125,
+    4.561338812112808,
     {
-      "loss": 8748.698876953125,
-      "_timer/data_time": 0.29672698974609374,
-      "_timer/model_time": 0.16169338226318358,
-      "_timer/batch_time": 0.45843167304992677,
-      "_timer/_fps": 796.6179886173366
+      "loss": 4.561338812112808,
+      "_timer/data_time": 0.152281125386556,
+      "_timer/model_time": 0.15237720807393393,
+      "_timer/batch_time": 0.30466906229654944,
+      "_timer/_fps": 802.4111443348368
     }
   ],
   "epoch_32": [
     "logs/checkpoints/train.33.pth",
-    8748.78447265625,
+    4.097953796386719,
     {
-      "loss": 8748.78447265625,
-      "_timer/data_time": 0.33911900520324706,
-      "_timer/model_time": 0.1805266857147217,
-      "_timer/batch_time": 0.5196590900421143,
-      "_timer/_fps": 779.2715168560587
+      "loss": 4.097953796386719,
+      "_timer/data_time": 0.1583367983500163,
+      "_timer/model_time": 0.15696195761362713,
+      "_timer/batch_time": 0.3153088092803955,
+      "_timer/_fps": 776.2137111700573
     }
   ],
   "epoch_33": [
     "logs/checkpoints/train.34.pth",
-    8748.764990234375,
+    4.038244207700093,
     {
-      "loss": 8748.764990234375,
-      "_timer/data_time": 0.33814516067504885,
-      "_timer/model_time": 0.14771428108215331,
-      "_timer/batch_time": 0.48587260246276853,
-      "_timer/_fps": 914.4966408355965
+      "loss": 4.038244207700093,
+      "_timer/data_time": 0.15752915541330972,
+      "_timer/model_time": 0.16004868348439535,
+      "_timer/batch_time": 0.31759051481882733,
+      "_timer/_fps": 779.0510711090833
     }
   ],
   "epoch_34": [
     "logs/checkpoints/train.35.pth",
-    8748.682470703125,
+    3.859234074751536,
     {
-      "loss": 8748.682470703125,
-      "_timer/data_time": 0.33455920219421387,
-      "_timer/model_time": 0.16742091178894042,
-      "_timer/batch_time": 0.5019920825958252,
-      "_timer/_fps": 872.0115564355933
+      "loss": 3.859234074751536,
+      "_timer/data_time": 0.15860406557718912,
+      "_timer/model_time": 0.15525511900583902,
+      "_timer/batch_time": 0.31387098630269367,
+      "_timer/_fps": 793.6487527059614
     }
   ],
   "epoch_35": [
     "logs/checkpoints/train.36.pth",
-    8748.75390625,
+    3.664969126383464,
     {
-      "loss": 8748.75390625,
-      "_timer/data_time": 0.33072905540466313,
-      "_timer/model_time": 0.15449557304382325,
-      "_timer/batch_time": 0.48523626327514646,
-      "_timer/_fps": 850.7521166475676
+      "loss": 3.664969126383464,
+      "_timer/data_time": 0.16721471150716147,
+      "_timer/model_time": 0.16777761777242023,
+      "_timer/batch_time": 0.33500369389851886,
+      "_timer/_fps": 744.6667869406222
     }
   ],
   "epoch_36": [
     "logs/checkpoints/train.37.pth",
-    8748.80068359375,
+    3.608512739340464,
     {
-      "loss": 8748.80068359375,
-      "_timer/data_time": 0.3399737358093262,
-      "_timer/model_time": 0.16937365531921386,
-      "_timer/batch_time": 0.5093593120574951,
-      "_timer/_fps": 805.5281912886958
+      "loss": 3.608512739340464,
+      "_timer/data_time": 0.15739540259043372,
+      "_timer/model_time": 0.15408639113108316,
+      "_timer/batch_time": 0.311492919921875,
+      "_timer/_fps": 782.2436403294448
     }
   ],
   "epoch_37": [
     "logs/checkpoints/train.38.pth",
-    8748.7591796875,
+    3.4696711699167886,
     {
-      "loss": 8748.7591796875,
-      "_timer/data_time": 0.34238371849060056,
-      "_timer/model_time": 0.16729536056518554,
-      "_timer/batch_time": 0.5096926689147949,
-      "_timer/_fps": 773.5697602796407
+      "loss": 3.4696711699167886,
+      "_timer/data_time": 0.15314420064290363,
+      "_timer/model_time": 0.15263346831003827,
+      "_timer/batch_time": 0.3057880401611328,
+      "_timer/_fps": 789.818347495403
     }
   ],
   "epoch_38": [
     "logs/checkpoints/train.39.pth",
-    8748.794873046874,
+    3.402158906062444,
     {
-      "loss": 8748.794873046874,
-      "_timer/data_time": 0.32927641868591306,
-      "_timer/model_time": 0.17163124084472656,
-      "_timer/batch_time": 0.5009209156036377,
-      "_timer/_fps": 614.438361356237
+      "loss": 3.402158906062444,
+      "_timer/data_time": 0.1554486354192098,
+      "_timer/model_time": 0.16158489386240643,
+      "_timer/batch_time": 0.31704529126485187,
+      "_timer/_fps": 757.3706100162626
     }
   ],
   "epoch_39": [
     "logs/checkpoints/train.40.pth",
-    8748.771142578125,
+    3.0302377442518873,
     {
-      "loss": 8748.771142578125,
-      "_timer/data_time": 0.34626860618591304,
-      "_timer/model_time": 0.17405190467834472,
-      "_timer/batch_time": 0.5203332424163818,
-      "_timer/_fps": 632.7426719687413
+      "loss": 3.0302377442518873,
+      "_timer/data_time": 0.15839898586273193,
+      "_timer/model_time": 0.16045157114664713,
+      "_timer/batch_time": 0.3188614845275879,
+      "_timer/_fps": 788.6715112923418
     }
   ],
   "epoch_40": [
     "logs/checkpoints/train.41.pth",
-    8748.791748046875,
+    3.0495929767688112,
     {
-      "loss": 8748.791748046875,
-      "_timer/data_time": 0.31310706138610833,
-      "_timer/model_time": 0.15305914878845214,
-      "_timer/batch_time": 0.4661766529083252,
-      "_timer/_fps": 846.7739088478396
+      "loss": 3.0495929767688112,
+      "_timer/data_time": 0.15438294410705566,
+      "_timer/model_time": 0.16111036141713458,
+      "_timer/batch_time": 0.3155037562052409,
+      "_timer/_fps": 799.3966585755859
     }
   ],
   "epoch_41": [
     "logs/checkpoints/train.42.pth",
-    8748.846923828125,
+    2.9654311041037245,
     {
-      "loss": 8748.846923828125,
-      "_timer/data_time": 0.32610502243041994,
-      "_timer/model_time": 0.14474477767944335,
-      "_timer/batch_time": 0.47086215019226074,
-      "_timer/_fps": 882.1933684424286
+      "loss": 2.9654311041037245,
+      "_timer/data_time": 0.1442075173060099,
+      "_timer/model_time": 0.15250515937805176,
+      "_timer/batch_time": 0.29672292868296307,
+      "_timer/_fps": 777.678626516143
     }
   ],
   "epoch_42": [
     "logs/checkpoints/train.43.pth",
-    8748.750244140625,
+    2.798786461353302,
     {
-      "loss": 8748.750244140625,
-      "_timer/data_time": 0.3833151340484619,
-      "_timer/model_time": 0.1805582046508789,
-      "_timer/batch_time": 0.5638848781585694,
-      "_timer/_fps": 905.4426491778308
+      "loss": 2.798786461353302,
+      "_timer/data_time": 0.15588688850402832,
+      "_timer/model_time": 0.15577868620554608,
+      "_timer/batch_time": 0.3116763432820638,
+      "_timer/_fps": 768.6888143024433
     }
   ],
   "epoch_43": [
     "logs/checkpoints/train.44.pth",
-    8748.771044921876,
+    2.8406212528546653,
     {
-      "loss": 8748.771044921876,
-      "_timer/data_time": 0.34711036682128904,
-      "_timer/model_time": 0.20444846153259277,
-      "_timer/batch_time": 0.5515690803527832,
-      "_timer/_fps": 856.245309159253
+      "loss": 2.8406212528546653,
+      "_timer/data_time": 0.155793825785319,
+      "_timer/model_time": 0.15496134757995605,
+      "_timer/batch_time": 0.3107657035191854,
+      "_timer/_fps": 778.7944180878055
     }
   ],
   "epoch_44": [
     "logs/checkpoints/train.45.pth",
-    8748.74365234375,
+    2.6704660654067993,
     {
-      "loss": 8748.74365234375,
-      "_timer/data_time": 0.3490474700927735,
-      "_timer/model_time": 0.14757905006408692,
-      "_timer/batch_time": 0.49663896560668946,
-      "_timer/_fps": 842.6529724792292
+      "loss": 2.6704660654067993,
+      "_timer/data_time": 0.1596745252609253,
+      "_timer/model_time": 0.15377275149027506,
+      "_timer/batch_time": 0.31345744927724206,
+      "_timer/_fps": 798.8909070124648
     }
   ],
   "epoch_45": [
     "logs/checkpoints/train.46.pth",
-    8748.784326171875,
+    2.74874551097552,
     {
-      "loss": 8748.784326171875,
-      "_timer/data_time": 0.34354867935180666,
-      "_timer/model_time": 0.16768550872802734,
-      "_timer/batch_time": 0.51124587059021,
-      "_timer/_fps": 876.1564088749442
+      "loss": 2.74874551097552,
+      "_timer/data_time": 0.15868651866912845,
+      "_timer/model_time": 0.15354235967000326,
+      "_timer/batch_time": 0.31224028269449866,
+      "_timer/_fps": 790.7666076498115
     }
   ],
   "epoch_46": [
     "logs/checkpoints/train.47.pth",
-    8748.75703125,
+    2.6779926468928656,
     {
-      "loss": 8748.75703125,
-      "_timer/data_time": 0.33119478225708004,
-      "_timer/model_time": 0.16264848709106444,
-      "_timer/batch_time": 0.4938545227050781,
-      "_timer/_fps": 794.1648965755352
+      "loss": 2.6779926468928656,
+      "_timer/data_time": 0.1570691267649333,
+      "_timer/model_time": 0.16170744101206463,
+      "_timer/batch_time": 0.31878674030303955,
+      "_timer/_fps": 750.5894863643302
     }
   ],
   "epoch_47": [
     "logs/checkpoints/train.48.pth",
-    8748.7880859375,
+    2.421127701799075,
     {
-      "loss": 8748.7880859375,
-      "_timer/data_time": 0.34745531082153314,
-      "_timer/model_time": 0.1454920291900635,
-      "_timer/batch_time": 0.49295868873596194,
-      "_timer/_fps": 897.6714857249383
+      "loss": 2.421127701799075,
+      "_timer/data_time": 0.1571322679519653,
+      "_timer/model_time": 0.1513893206914266,
+      "_timer/batch_time": 0.30853271484375,
+      "_timer/_fps": 787.9687074668843
     }
   ],
   "epoch_48": [
     "logs/checkpoints/train.49.pth",
-    8748.778369140626,
+    2.4037589728832245,
     {
-      "loss": 8748.778369140626,
-      "_timer/data_time": 0.33662385940551764,
-      "_timer/model_time": 0.17366938591003417,
-      "_timer/batch_time": 0.510308027267456,
-      "_timer/_fps": 705.8629465024974
+      "loss": 2.4037589728832245,
+      "_timer/data_time": 0.16150836149851477,
+      "_timer/model_time": 0.1593004862467448,
+      "_timer/batch_time": 0.32081957658131915,
+      "_timer/_fps": 761.9322636405475
     }
   ],
   "epoch_49": [
     "logs/checkpoints/train.50.pth",
-    8748.810791015625,
+    2.301587144533793,
     {
-      "loss": 8748.810791015625,
-      "_timer/data_time": 0.341895341873169,
-      "_timer/model_time": 0.1406928539276123,
-      "_timer/batch_time": 0.48259882926940917,
-      "_timer/_fps": 897.7486819474402
+      "loss": 2.301587144533793,
+      "_timer/data_time": 0.15623724460601804,
+      "_timer/model_time": 0.15861459573109943,
+      "_timer/batch_time": 0.3148628075917562,
+      "_timer/_fps": 771.9946523251086
     }
   ],
   "epoch_50": [
     "logs/checkpoints/train.51.pth",
-    8748.785595703124,
+    2.3333903551101685,
     {
-      "loss": 8748.785595703124,
-      "_timer/data_time": 0.33919019699096675,
-      "_timer/model_time": 0.15065484046936034,
-      "_timer/batch_time": 0.48985605239868163,
-      "_timer/_fps": 842.8512781590473
+      "loss": 2.3333903551101685,
+      "_timer/data_time": 0.16553938388824466,
+      "_timer/model_time": 0.16012024879455566,
+      "_timer/batch_time": 0.32567059993743896,
+      "_timer/_fps": 808.996641038703
     }
   ],
   "epoch_51": [
     "logs/checkpoints/train.52.pth",
-    8748.85732421875,
+    2.272270073493322,
     {
-      "loss": 8748.85732421875,
-      "_timer/data_time": 0.32372503280639653,
-      "_timer/model_time": 0.1458064556121826,
-      "_timer/batch_time": 0.4695427894592285,
-      "_timer/_fps": 946.2997883998346
+      "loss": 2.272270073493322,
+      "_timer/data_time": 0.18083596229553223,
+      "_timer/model_time": 0.16151865323384604,
+      "_timer/batch_time": 0.3423659404118856,
+      "_timer/_fps": 774.7510050564199
     }
   ],
   "epoch_52": [
     "logs/checkpoints/train.53.pth",
-    8748.81943359375,
+    2.1625238259633384,
     {
-      "loss": 8748.81943359375,
-      "_timer/data_time": 0.30273017883300785,
-      "_timer/model_time": 0.1490480422973633,
-      "_timer/batch_time": 0.45178999900817873,
-      "_timer/_fps": 943.967079489822
+      "loss": 2.1625238259633384,
+      "_timer/data_time": 0.15623386700948078,
+      "_timer/model_time": 0.16006290912628174,
+      "_timer/batch_time": 0.3163071076075236,
+      "_timer/_fps": 762.5497839989966
     }
   ],
   "epoch_53": [
     "logs/checkpoints/train.54.pth",
-    8748.81806640625,
+    2.2174743165572486,
     {
-      "loss": 8748.81806640625,
-      "_timer/data_time": 0.32766408920288087,
-      "_timer/model_time": 0.16225738525390626,
-      "_timer/batch_time": 0.4899341106414795,
-      "_timer/_fps": 839.4168251546103
+      "loss": 2.2174743165572486,
+      "_timer/data_time": 0.15363347530364987,
+      "_timer/model_time": 0.1537009874979655,
+      "_timer/batch_time": 0.3073444763819377,
+      "_timer/_fps": 787.5756045310125
     }
   ],
   "epoch_54": [
     "logs/checkpoints/train.55.pth",
-    8748.8115234375,
+    2.1363797833522162,
     {
-      "loss": 8748.8115234375,
-      "_timer/data_time": 0.46170663833618164,
-      "_timer/model_time": 0.26663684844970703,
-      "_timer/batch_time": 0.7283579349517822,
-      "_timer/_fps": 583.4117587661138
+      "loss": 2.1363797833522162,
+      "_timer/data_time": 0.14776933193206787,
+      "_timer/model_time": 0.15098766485850015,
+      "_timer/batch_time": 0.29876720905303955,
+      "_timer/_fps": 814.6952763138303
     }
   ],
   "epoch_55": [
     "logs/checkpoints/train.56.pth",
-    8748.8279296875,
+    2.358467583854993,
     {
-      "loss": 8748.8279296875,
-      "_timer/data_time": 0.39057450294494633,
-      "_timer/model_time": 0.19033126831054686,
-      "_timer/batch_time": 0.5809186935424805,
-      "_timer/_fps": 642.2610196197813
+      "loss": 2.358467583854993,
+      "_timer/data_time": 0.1592429876327515,
+      "_timer/model_time": 0.1583499511082967,
+      "_timer/batch_time": 0.31760569413503015,
+      "_timer/_fps": 728.5986701231494
     }
   ],
   "epoch_56": [
     "logs/checkpoints/train.57.pth",
-    8748.865576171875,
+    2.1793965126077337,
     {
-      "loss": 8748.865576171875,
-      "_timer/data_time": 0.3772854328155518,
-      "_timer/model_time": 0.2025135040283203,
-      "_timer/batch_time": 0.5798122882843018,
-      "_timer/_fps": 708.6306760837169
+      "loss": 2.1793965126077337,
+      "_timer/data_time": 0.1527643998463949,
+      "_timer/model_time": 0.16047600905100506,
+      "_timer/batch_time": 0.3132521311442057,
+      "_timer/_fps": 762.8804905524563
     }
   ],
   "epoch_57": [
     "logs/checkpoints/train.58.pth",
-    8748.890478515625,
+    2.035278357565403,
     {
-      "loss": 8748.890478515625,
-      "_timer/data_time": 0.3590405464172364,
-      "_timer/model_time": 0.1863718032836914,
-      "_timer/batch_time": 0.5454245567321777,
-      "_timer/_fps": 895.4038580951326
+      "loss": 2.035278357565403,
+      "_timer/data_time": 0.14489944775899252,
+      "_timer/model_time": 0.1486568053563436,
+      "_timer/batch_time": 0.29356726010640466,
+      "_timer/_fps": 802.614481454817
     }
   ],
   "epoch_58": [
     "logs/checkpoints/train.59.pth",
-    8748.71962890625,
+    2.125889837741852,
     {
-      "loss": 8748.71962890625,
-      "_timer/data_time": 0.34623966217041013,
-      "_timer/model_time": 0.1737595558166504,
-      "_timer/batch_time": 0.5200125217437744,
-      "_timer/_fps": 750.7274813308352
+      "loss": 2.125889837741852,
+      "_timer/data_time": 0.1559755802154541,
+      "_timer/model_time": 0.1594928503036499,
+      "_timer/batch_time": 0.31547868251800537,
+      "_timer/_fps": 801.3954590519018
     }
   ],
   "epoch_59": [
     "logs/checkpoints/train.60.pth",
-    8748.690087890625,
+    2.158838684360186,
     {
-      "loss": 8748.690087890625,
-      "_timer/data_time": 0.36117534637451176,
-      "_timer/model_time": 0.20411453247070313,
-      "_timer/batch_time": 0.5653018474578857,
-      "_timer/_fps": 731.6920473677085
+      "loss": 2.158838684360186,
+      "_timer/data_time": 0.15319093068440753,
+      "_timer/model_time": 0.15176729361216226,
+      "_timer/batch_time": 0.3049690326054891,
+      "_timer/_fps": 805.6058721933512
     }
   ],
   "epoch_60": [
     "logs/checkpoints/train.61.pth",
-    8748.682275390625,
+    2.292598699529966,
     {
-      "loss": 8748.682275390625,
-      "_timer/data_time": 0.36671996116638184,
-      "_timer/model_time": 0.17388272285461426,
-      "_timer/batch_time": 0.540623140335083,
-      "_timer/_fps": 725.8124939290005
+      "loss": 2.292598699529966,
+      "_timer/data_time": 0.15912946065266925,
+      "_timer/model_time": 0.15966928005218506,
+      "_timer/batch_time": 0.3188083569208781,
+      "_timer/_fps": 786.9524014150434
     }
   ],
   "epoch_61": [
     "logs/checkpoints/train.62.pth",
-    8748.59970703125,
+    1.8538856307665508,
     {
-      "loss": 8748.59970703125,
-      "_timer/data_time": 0.3775723457336425,
-      "_timer/model_time": 0.19563932418823243,
-      "_timer/batch_time": 0.573227834701538,
-      "_timer/_fps": 612.3499663956399
+      "loss": 1.8538856307665508,
+      "_timer/data_time": 0.15580876668294272,
+      "_timer/model_time": 0.1569655736287435,
+      "_timer/batch_time": 0.312786062558492,
+      "_timer/_fps": 800.1270867039418
     }
   ],
   "epoch_62": [
     "logs/checkpoints/train.63.pth",
-    8748.67705078125,
+    1.9109552080432575,
     {
-      "loss": 8748.67705078125,
-      "_timer/data_time": 0.33980450630187986,
-      "_timer/model_time": 0.1676389217376709,
-      "_timer/batch_time": 0.5074567794799805,
-      "_timer/_fps": 695.7198498659061
+      "loss": 1.9109552080432575,
+      "_timer/data_time": 0.1561652421951294,
+      "_timer/model_time": 0.15332976977030438,
+      "_timer/batch_time": 0.30950526396433514,
+      "_timer/_fps": 798.55033016108
     }
   ],
   "epoch_63": [
     "logs/checkpoints/train.64.pth",
-    8748.634912109375,
+    1.8885340044895806,
     {
-      "loss": 8748.634912109375,
-      "_timer/data_time": 0.371847677230835,
-      "_timer/model_time": 0.1634810447692871,
-      "_timer/batch_time": 0.5353411674499512,
-      "_timer/_fps": 820.6373664677596
+      "loss": 1.8885340044895806,
+      "_timer/data_time": 0.16122376918792725,
+      "_timer/model_time": 0.17432904243469238,
+      "_timer/batch_time": 0.3355639378229777,
+      "_timer/_fps": 752.7494902505184
     }
   ],
   "epoch_64": [
     "logs/checkpoints/train.65.pth",
-    8748.80126953125,
+    1.9007477015256884,
     {
-      "loss": 8748.80126953125,
-      "_timer/data_time": 0.3549664497375489,
-      "_timer/model_time": 0.18074502944946289,
-      "_timer/batch_time": 0.5357248306274414,
-      "_timer/_fps": 647.6701764216353
+      "loss": 1.9007477015256884,
+      "_timer/data_time": 0.1530626614888509,
+      "_timer/model_time": 0.15434773763020834,
+      "_timer/batch_time": 0.3074225187301636,
+      "_timer/_fps": 773.6714780361109
     }
   ],
   "epoch_65": [
     "logs/checkpoints/train.66.pth",
-    8748.88046875,
+    1.8741112723946571,
     {
-      "loss": 8748.88046875,
-      "_timer/data_time": 0.3601428985595704,
-      "_timer/model_time": 0.17209310531616212,
-      "_timer/batch_time": 0.5322483062744141,
-      "_timer/_fps": 749.9244377855589
+      "loss": 1.8741112723946571,
+      "_timer/data_time": 0.16525912284851074,
+      "_timer/model_time": 0.16861963272094727,
+      "_timer/batch_time": 0.33389127254486084,
+      "_timer/_fps": 718.7537600714728
     }
   ],
   "epoch_66": [
     "logs/checkpoints/train.67.pth",
-    8748.93095703125,
+    1.9350131526589394,
     {
-      "loss": 8748.93095703125,
-      "_timer/data_time": 0.36057319641113283,
-      "_timer/model_time": 0.18061294555664062,
-      "_timer/batch_time": 0.5411991119384766,
-      "_timer/_fps": 750.8025575110203
+      "loss": 1.9350131526589394,
+      "_timer/data_time": 0.1579665740331014,
+      "_timer/model_time": 0.17933809757232666,
+      "_timer/batch_time": 0.3373165925343832,
+      "_timer/_fps": 573.8799273221691
     }
   ],
   "epoch_67": [
     "logs/checkpoints/train.68.pth",
-    8748.947900390625,
+    1.8010269999504087,
     {
-      "loss": 8748.947900390625,
-      "_timer/data_time": 0.3711366653442382,
-      "_timer/model_time": 0.1693355083465576,
-      "_timer/batch_time": 0.5404858589172363,
-      "_timer/_fps": 738.148626013008
+      "loss": 1.8010269999504087,
+      "_timer/data_time": 0.15667895476023358,
+      "_timer/model_time": 0.16136022408803302,
+      "_timer/batch_time": 0.3180536429087321,
+      "_timer/_fps": 718.1050249381017
     }
   ],
   "epoch_68": [
     "logs/checkpoints/train.69.pth",
-    8748.94814453125,
+    1.7557978530724843,
     {
-      "loss": 8748.94814453125,
-      "_timer/data_time": 0.3604313373565674,
-      "_timer/model_time": 0.16614742279052735,
-      "_timer/batch_time": 0.5265923500061035,
-      "_timer/_fps": 770.7468269386846
+      "loss": 1.7557978530724843,
+      "_timer/data_time": 0.19111104806264242,
+      "_timer/model_time": 0.17223397890726727,
+      "_timer/batch_time": 0.3633577823638916,
+      "_timer/_fps": 719.727328771199
     }
   ],
   "epoch_69": [
     "logs/checkpoints/train.70.pth",
-    8748.931396484375,
+    1.6485066264867783,
     {
-      "loss": 8748.931396484375,
-      "_timer/data_time": 0.3795269012451172,
-      "_timer/model_time": 0.1887221336364746,
-      "_timer/batch_time": 0.5682634353637696,
-      "_timer/_fps": 687.3456378029437
+      "loss": 1.6485066264867783,
+      "_timer/data_time": 0.17032456398010254,
+      "_timer/model_time": 0.18226861953735352,
+      "_timer/batch_time": 0.3526078462600708,
+      "_timer/_fps": 655.8192926641489
     }
   ],
   "epoch_70": [
     "logs/checkpoints/train.71.pth",
-    8748.90517578125,
+    1.7377608641982079,
     {
-      "loss": 8748.90517578125,
-      "_timer/data_time": 0.44269213676452634,
-      "_timer/model_time": 0.20701284408569337,
-      "_timer/batch_time": 0.6497198104858398,
-      "_timer/_fps": 696.5440547598781
+      "loss": 1.7377608641982079,
+      "_timer/data_time": 0.1642966667811076,
+      "_timer/model_time": 0.159798264503479,
+      "_timer/batch_time": 0.3241068522135417,
+      "_timer/_fps": 737.9293377643836
     }
   ],
   "epoch_71": [
     "logs/checkpoints/train.72.pth",
-    8748.964013671875,
+    1.7286397690574329,
     {
-      "loss": 8748.964013671875,
-      "_timer/data_time": 0.35296559333801275,
-      "_timer/model_time": 0.1809375286102295,
-      "_timer/batch_time": 0.5339194774627686,
-      "_timer/_fps": 701.8512920384746
+      "loss": 1.7286397690574329,
+      "_timer/data_time": 0.16555929183959964,
+      "_timer/model_time": 0.15595058600107828,
+      "_timer/batch_time": 0.3215223550796509,
+      "_timer/_fps": 735.0928904452256
     }
   ],
   "epoch_72": [
     "logs/checkpoints/train.73.pth",
-    8748.955908203125,
+    1.595413034160932,
     {
-      "loss": 8748.955908203125,
-      "_timer/data_time": 0.3785750865936279,
-      "_timer/model_time": 0.17379860877990722,
-      "_timer/batch_time": 0.5523868083953858,
-      "_timer/_fps": 749.9086486798865
+      "loss": 1.595413034160932,
+      "_timer/data_time": 0.165433923403422,
+      "_timer/model_time": 0.16101741790771484,
+      "_timer/batch_time": 0.32646429538726807,
+      "_timer/_fps": 810.4443383711912
     }
   ],
   "epoch_73": [
     "logs/checkpoints/train.74.pth",
-    8748.932373046875,
+    1.8129240175088248,
     {
-      "loss": 8748.932373046875,
-      "_timer/data_time": 0.36011452674865724,
-      "_timer/model_time": 0.16710162162780762,
-      "_timer/batch_time": 0.5272294044494629,
-      "_timer/_fps": 710.0954343638898
+      "loss": 1.8129240175088248,
+      "_timer/data_time": 0.16538274288177493,
+      "_timer/model_time": 0.15402730305989584,
+      "_timer/batch_time": 0.31942200660705566,
+      "_timer/_fps": 781.7304479640034
     }
   ],
   "epoch_74": [
     "logs/checkpoints/train.75.pth",
-    8748.914111328126,
+    1.6223196772237618,
     {
-      "loss": 8748.914111328126,
-      "_timer/data_time": 0.3694477558135987,
-      "_timer/model_time": 0.1822883129119873,
-      "_timer/batch_time": 0.5517498016357422,
-      "_timer/_fps": 691.3900787545952
+      "loss": 1.6223196772237618,
+      "_timer/data_time": 0.16466228167215982,
+      "_timer/model_time": 0.15974223613739014,
+      "_timer/batch_time": 0.3244156042734782,
+      "_timer/_fps": 752.7110506295977
     }
   ],
   "epoch_75": [
     "logs/checkpoints/train.76.pth",
-    8748.9056640625,
+    1.6282850876450539,
     {
-      "loss": 8748.9056640625,
-      "_timer/data_time": 0.3724704742431641,
-      "_timer/model_time": 0.17659058570861816,
-      "_timer/batch_time": 0.5490745067596435,
-      "_timer/_fps": 732.1069960312053
+      "loss": 1.6282850876450539,
+      "_timer/data_time": 0.16387061278025308,
+      "_timer/model_time": 0.158839742342631,
+      "_timer/batch_time": 0.3227214415868124,
+      "_timer/_fps": 758.0629783140148
     }
   ],
   "epoch_76": [
     "logs/checkpoints/train.77.pth",
-    8748.922509765625,
+    1.6858362319568794,
     {
-      "loss": 8748.922509765625,
-      "_timer/data_time": 0.3872342109680176,
-      "_timer/model_time": 0.19561009407043456,
-      "_timer/batch_time": 0.5828632831573486,
-      "_timer/_fps": 629.0964134119411
+      "loss": 1.6858362319568794,
+      "_timer/data_time": 0.16661528746287024,
+      "_timer/model_time": 0.16106335322062176,
+      "_timer/batch_time": 0.3276891311009725,
+      "_timer/_fps": 754.352371012038
     }
   ],
   "epoch_77": [
     "logs/checkpoints/train.78.pth",
-    8748.885791015626,
+    1.5952259923021,
     {
-      "loss": 8748.885791015626,
-      "_timer/data_time": 0.3916706562042237,
-      "_timer/model_time": 0.21773843765258788,
-      "_timer/batch_time": 0.609431266784668,
-      "_timer/_fps": 650.8097194383197
+      "loss": 1.5952259923021,
+      "_timer/data_time": 0.1641453504562378,
+      "_timer/model_time": 0.1497604052225749,
+      "_timer/batch_time": 0.3139173587163289,
+      "_timer/_fps": 792.5172687238802
     }
   ],
   "epoch_78": [
     "logs/checkpoints/train.79.pth",
-    8748.9103515625,
+    1.7489451232055824,
     {
-      "loss": 8748.9103515625,
-      "_timer/data_time": 0.40526537895202636,
-      "_timer/model_time": 0.2002873420715332,
-      "_timer/batch_time": 0.6055663585662842,
-      "_timer/_fps": 650.9554877779929
+      "loss": 1.7489451232055824,
+      "_timer/data_time": 0.16946705182393393,
+      "_timer/model_time": 0.15330259005228677,
+      "_timer/batch_time": 0.32278144359588623,
+      "_timer/_fps": 763.152886910917
     }
   ],
   "epoch_79": [
     "logs/checkpoints/train.80.pth",
-    8748.928662109374,
+    1.6370811785260837,
     {
-      "loss": 8748.928662109374,
-      "_timer/data_time": 0.3949244499206543,
-      "_timer/model_time": 0.34827499389648436,
-      "_timer/batch_time": 0.7432165145874023,
-      "_timer/_fps": 525.3253296258731
+      "loss": 1.6370811785260837,
+      "_timer/data_time": 0.16155588626861575,
+      "_timer/model_time": 0.15996885299682617,
+      "_timer/batch_time": 0.3215363025665283,
+      "_timer/_fps": 767.9848349083538
     }
   ],
   "epoch_80": [
     "logs/checkpoints/train.81.pth",
-    8748.9595703125,
+    1.609027979274591,
     {
-      "loss": 8748.9595703125,
-      "_timer/data_time": 0.3938421726226807,
-      "_timer/model_time": 0.21914968490600586,
-      "_timer/batch_time": 0.6130064487457275,
-      "_timer/_fps": 723.0232479882386
+      "loss": 1.609027979274591,
+      "_timer/data_time": 0.15722052256266278,
+      "_timer/model_time": 0.154301126797994,
+      "_timer/batch_time": 0.3115331331888834,
+      "_timer/_fps": 764.6757048025911
     }
   ],
   "epoch_81": [
     "logs/checkpoints/train.82.pth",
-    8748.89375,
+    1.7451663414637248,
     {
-      "loss": 8748.89375,
-      "_timer/data_time": 0.3566681385040283,
-      "_timer/model_time": 0.187929105758667,
-      "_timer/batch_time": 0.5446110725402832,
-      "_timer/_fps": 751.7489682345497
+      "loss": 1.7451663414637248,
+      "_timer/data_time": 0.1662395000457764,
+      "_timer/model_time": 0.15742099285125732,
+      "_timer/batch_time": 0.32367213567097985,
+      "_timer/_fps": 775.1970803406703
     }
   ],
   "epoch_82": [
     "logs/checkpoints/train.83.pth",
-    8748.878662109375,
+    1.453287204106649,
     {
-      "loss": 8748.878662109375,
-      "_timer/data_time": 0.3682696342468262,
-      "_timer/model_time": 0.17226896286010743,
-      "_timer/batch_time": 0.5405515193939209,
-      "_timer/_fps": 746.8713290702602
+      "loss": 1.453287204106649,
+      "_timer/data_time": 0.1678922971089681,
+      "_timer/model_time": 0.15359159310658774,
+      "_timer/batch_time": 0.32149473826090497,
+      "_timer/_fps": 827.8783819601374
     }
   ],
   "epoch_83": [
     "logs/checkpoints/train.84.pth",
-    8748.9197265625,
+    1.6496256925165653,
     {
-      "loss": 8748.9197265625,
-      "_timer/data_time": 0.3568361282348633,
-      "_timer/model_time": 0.17567543983459472,
-      "_timer/batch_time": 0.5325250148773193,
-      "_timer/_fps": 727.5926197848141
+      "loss": 1.6496256925165653,
+      "_timer/data_time": 0.16563681761423749,
+      "_timer/model_time": 0.1531511942545573,
+      "_timer/batch_time": 0.3187985022862752,
+      "_timer/_fps": 787.3765631077338
     }
   ],
   "epoch_84": [
     "logs/checkpoints/train.85.pth",
-    8748.926416015625,
+    1.4571012270947297,
     {
-      "loss": 8748.926416015625,
-      "_timer/data_time": 0.35566015243530275,
-      "_timer/model_time": 0.17430658340454103,
-      "_timer/batch_time": 0.529978895187378,
-      "_timer/_fps": 779.9606511594045
+      "loss": 1.4571012270947297,
+      "_timer/data_time": 0.16583295663197833,
+      "_timer/model_time": 0.15074574947357178,
+      "_timer/batch_time": 0.31659062703450525,
+      "_timer/_fps": 787.1635726331732
     }
   ],
   "epoch_85": [
     "logs/checkpoints/train.86.pth",
-    8748.91318359375,
+    1.6202436797320843,
     {
-      "loss": 8748.91318359375,
-      "_timer/data_time": 0.34650602340698244,
-      "_timer/model_time": 0.17977461814880372,
-      "_timer/batch_time": 0.5262936592102051,
-      "_timer/_fps": 737.1671176675638
+      "loss": 1.6202436797320843,
+      "_timer/data_time": 0.16224292914072674,
+      "_timer/model_time": 0.1608272393544515,
+      "_timer/batch_time": 0.3230823278427124,
+      "_timer/_fps": 747.0536080815938
     }
   ],
   "epoch_86": [
     "logs/checkpoints/train.87.pth",
-    8748.93349609375,
+    1.5794781893491745,
     {
-      "loss": 8748.93349609375,
-      "_timer/data_time": 0.338882303237915,
-      "_timer/model_time": 0.18091788291931152,
-      "_timer/batch_time": 0.5198151111602783,
-      "_timer/_fps": 734.8269163720923
+      "loss": 1.5794781893491745,
+      "_timer/data_time": 0.16225206851959229,
+      "_timer/model_time": 0.15478765964508057,
+      "_timer/batch_time": 0.31705156962076825,
+      "_timer/_fps": 755.2251642007441
     }
   ],
   "epoch_87": [
     "logs/checkpoints/train.88.pth",
-    8748.927783203126,
+    1.5257124528288841,
     {
-      "loss": 8748.927783203126,
-      "_timer/data_time": 0.3710960388183594,
-      "_timer/model_time": 0.18334040641784669,
-      "_timer/batch_time": 0.554450511932373,
-      "_timer/_fps": 745.2150590741164
+      "loss": 1.5257124528288841,
+      "_timer/data_time": 0.16210679213205972,
+      "_timer/model_time": 0.15287268161773682,
+      "_timer/batch_time": 0.31499266624450684,
+      "_timer/_fps": 787.9906537144063
     }
   ],
   "epoch_88": [
     "logs/checkpoints/train.89.pth",
-    8748.969189453124,
+    1.5416859798133373,
     {
-      "loss": 8748.969189453124,
-      "_timer/data_time": 0.3480463027954101,
-      "_timer/model_time": 0.1918973445892334,
-      "_timer/batch_time": 0.5399558544158936,
-      "_timer/_fps": 760.0784210548828
+      "loss": 1.5416859798133373,
+      "_timer/data_time": 0.16752278804779053,
+      "_timer/model_time": 0.1490918000539144,
+      "_timer/batch_time": 0.3166262706120809,
+      "_timer/_fps": 796.6674182586352
     }
   ],
   "epoch_89": [
     "logs/checkpoints/train.90.pth",
-    8748.925439453125,
+    1.4641534549494584,
     {
-      "loss": 8748.925439453125,
-      "_timer/data_time": 0.3615578651428223,
-      "_timer/model_time": 0.16607651710510254,
-      "_timer/batch_time": 0.5276480674743652,
-      "_timer/_fps": 723.6116732123139
+      "loss": 1.4641534549494584,
+      "_timer/data_time": 0.15964500109354657,
+      "_timer/model_time": 0.1488787333170573,
+      "_timer/batch_time": 0.3085352579752604,
+      "_timer/_fps": 799.4507135458736
     }
   ],
   "epoch_90": [
     "logs/checkpoints/train.91.pth",
-    8748.90478515625,
+    1.4144336320459843,
     {
-      "loss": 8748.90478515625,
-      "_timer/data_time": 0.3752288818359375,
-      "_timer/model_time": 0.16711044311523438,
-      "_timer/batch_time": 0.5423614025115967,
-      "_timer/_fps": 740.5973897230413
+      "loss": 1.4144336320459843,
+      "_timer/data_time": 0.1646603345870972,
+      "_timer/model_time": 0.15746279557545978,
+      "_timer/batch_time": 0.3221350908279419,
+      "_timer/_fps": 786.0717685719001
     }
   ],
   "epoch_91": [
     "logs/checkpoints/train.92.pth",
-    8748.922021484375,
+    1.546030730009079,
     {
-      "loss": 8748.922021484375,
-      "_timer/data_time": 0.3435314178466796,
-      "_timer/model_time": 0.18201375007629395,
-      "_timer/batch_time": 0.5255571842193604,
-      "_timer/_fps": 743.5530555697184
+      "loss": 1.546030730009079,
+      "_timer/data_time": 0.16204806168874106,
+      "_timer/model_time": 0.1682470242182414,
+      "_timer/batch_time": 0.33030589421590173,
+      "_timer/_fps": 791.2055381344462
     }
   ],
   "epoch_92": [
     "logs/checkpoints/train.93.pth",
-    8748.898388671874,
+    1.4959513048330944,
     {
-      "loss": 8748.898388671874,
-      "_timer/data_time": 0.3627885341644287,
-      "_timer/model_time": 0.2273007869720459,
-      "_timer/batch_time": 0.5901034832000732,
-      "_timer/_fps": 722.0097169931362
+      "loss": 1.4959513048330944,
+      "_timer/data_time": 0.1637592315673828,
+      "_timer/model_time": 0.15553192297617593,
+      "_timer/batch_time": 0.31930216153462726,
+      "_timer/_fps": 746.5451085875768
     }
   ],
   "epoch_93": [
     "logs/checkpoints/train.94.pth",
-    8748.939892578124,
+    1.5206080228090286,
     {
-      "loss": 8748.939892578124,
-      "_timer/data_time": 0.5220855236053467,
-      "_timer/model_time": 0.22716817855834961,
-      "_timer/batch_time": 0.7492670536041259,
-      "_timer/_fps": 604.1015275535885
+      "loss": 1.5206080228090286,
+      "_timer/data_time": 0.1605393091837565,
+      "_timer/model_time": 0.15758677323659262,
+      "_timer/batch_time": 0.318137526512146,
+      "_timer/_fps": 766.7411079690571
     }
   ],
   "epoch_94": [
     "logs/checkpoints/train.95.pth",
-    8748.8740234375,
+    1.5300643133620422,
     {
-      "loss": 8748.8740234375,
-      "_timer/data_time": 0.38886766433715814,
-      "_timer/model_time": 0.20923147201538086,
-      "_timer/batch_time": 0.5981135845184327,
-      "_timer/_fps": 757.4047087577613
+      "loss": 1.5300643133620422,
+      "_timer/data_time": 0.16844876607259113,
+      "_timer/model_time": 0.15241777896881104,
+      "_timer/batch_time": 0.32087838649749756,
+      "_timer/_fps": 760.107346745492
     }
   ],
   "epoch_95": [
     "logs/checkpoints/train.96.pth",
-    8748.93056640625,
+    1.5267593686779342,
     {
-      "loss": 8748.93056640625,
-      "_timer/data_time": 0.3206098556518555,
-      "_timer/model_time": 0.16352534294128418,
-      "_timer/batch_time": 0.4841484069824219,
-      "_timer/_fps": 843.6824227793791
+      "loss": 1.5267593686779342,
+      "_timer/data_time": 0.16170843442281085,
+      "_timer/model_time": 0.14739350477854413,
+      "_timer/batch_time": 0.3091134230295817,
+      "_timer/_fps": 824.1536444313987
     }
   ],
   "epoch_96": [
     "logs/checkpoints/train.97.pth",
-    8748.9515625,
+    1.3817983840902646,
     {
-      "loss": 8748.9515625,
-      "_timer/data_time": 0.35358777046203616,
-      "_timer/model_time": 0.16791019439697266,
-      "_timer/batch_time": 0.5215100765228271,
-      "_timer/_fps": 755.848527369783
+      "loss": 1.3817983840902646,
+      "_timer/data_time": 0.165830930074056,
+      "_timer/model_time": 0.1575909455617269,
+      "_timer/batch_time": 0.3234326044718424,
+      "_timer/_fps": 784.6643126098887
     }
   ],
   "epoch_97": [
     "logs/checkpoints/train.98.pth",
-    8748.926611328125,
+    1.5033735260367393,
     {
-      "loss": 8748.926611328125,
-      "_timer/data_time": 0.34444460868835447,
-      "_timer/model_time": 0.2129448413848877,
-      "_timer/batch_time": 0.5574025630950927,
-      "_timer/_fps": 671.7243573359165
+      "loss": 1.5033735260367393,
+      "_timer/data_time": 0.17013017336527506,
+      "_timer/model_time": 0.15115233262379962,
+      "_timer/batch_time": 0.3212932745615641,
+      "_timer/_fps": 779.3983600187242
     }
   ],
   "epoch_98": [
     "logs/checkpoints/train.99.pth",
-    8748.878662109375,
+    1.4276362185676894,
     {
-      "loss": 8748.878662109375,
-      "_timer/data_time": 0.3358198642730713,
-      "_timer/model_time": 0.17349467277526856,
-      "_timer/batch_time": 0.5093263149261474,
-      "_timer/_fps": 794.7047695006733
+      "loss": 1.4276362185676894,
+      "_timer/data_time": 0.16254905859629315,
+      "_timer/model_time": 0.1581831375757853,
+      "_timer/batch_time": 0.32074336210886634,
+      "_timer/_fps": 750.7249541831798
     }
   ],
   "epoch_99": [
     "logs/checkpoints/train.100.pth",
-    8748.941943359376,
+    1.4707014858722687,
     {
-      "loss": 8748.941943359376,
-      "_timer/data_time": 0.35381841659545904,
-      "_timer/model_time": 0.1537485122680664,
-      "_timer/batch_time": 0.5075810432434082,
-      "_timer/_fps": 784.3798105832411
+      "loss": 1.4707014858722687,
+      "_timer/data_time": 0.1605190436045329,
+      "_timer/model_time": 0.15578961372375488,
+      "_timer/batch_time": 0.3163198232650757,
+      "_timer/_fps": 764.4030670389996
+    }
+  ],
+  "epoch_100": [
+    "logs/checkpoints/train.101.pth",
+    1.3746745182822147,
+    {
+      "loss": 1.3746745182822147,
+      "_timer/data_time": 0.17094365755716961,
+      "_timer/model_time": 0.153273344039917,
+      "_timer/batch_time": 0.32422900199890137,
+      "_timer/_fps": 760.8863110400986
+    }
+  ],
+  "epoch_101": [
+    "logs/checkpoints/train.102.pth",
+    1.475034648552537,
+    {
+      "loss": 1.475034648552537,
+      "_timer/data_time": 0.15890399614969888,
+      "_timer/model_time": 0.15064362684885663,
+      "_timer/batch_time": 0.3095589478810628,
+      "_timer/_fps": 768.5609180543987
+    }
+  ],
+  "epoch_102": [
+    "logs/checkpoints/train.103.pth",
+    1.385998527208964,
+    {
+      "loss": 1.385998527208964,
+      "_timer/data_time": 0.1630539894104004,
+      "_timer/model_time": 0.15998915831247965,
+      "_timer/batch_time": 0.3230539162953695,
+      "_timer/_fps": 763.2393530873051
+    }
+  ],
+  "epoch_103": [
+    "logs/checkpoints/train.104.pth",
+    1.398945715278387,
+    {
+      "loss": 1.398945715278387,
+      "_timer/data_time": 0.16617178916931152,
+      "_timer/model_time": 0.14933156967163086,
+      "_timer/batch_time": 0.31551746527353924,
+      "_timer/_fps": 831.4402862619072
+    }
+  ],
+  "epoch_104": [
+    "logs/checkpoints/train.105.pth",
+    1.4141466692090034,
+    {
+      "loss": 1.4141466692090034,
+      "_timer/data_time": 0.16158548990885419,
+      "_timer/model_time": 0.15804656346638998,
+      "_timer/batch_time": 0.31964381535847985,
+      "_timer/_fps": 762.5512023383476
+    }
+  ],
+  "epoch_105": [
+    "logs/checkpoints/train.106.pth",
+    1.3237043917179108,
+    {
+      "loss": 1.3237043917179108,
+      "_timer/data_time": 0.16970539093017578,
+      "_timer/model_time": 0.1520395278930664,
+      "_timer/batch_time": 0.32175755500793457,
+      "_timer/_fps": 771.6430875171405
+    }
+  ],
+  "epoch_106": [
+    "logs/checkpoints/train.107.pth",
+    1.372791492069761,
+    {
+      "loss": 1.372791492069761,
+      "_timer/data_time": 0.15931042035420737,
+      "_timer/model_time": 0.15138550599416098,
+      "_timer/batch_time": 0.31070677439371747,
+      "_timer/_fps": 787.835291943366
+    }
+  ],
+  "epoch_107": [
+    "logs/checkpoints/train.108.pth",
+    1.29283996236821,
+    {
+      "loss": 1.29283996236821,
+      "_timer/data_time": 0.16449435551961267,
+      "_timer/model_time": 0.15658271312713623,
+      "_timer/batch_time": 0.3210879961649577,
+      "_timer/_fps": 752.1913544051496
+    }
+  ],
+  "epoch_108": [
+    "logs/checkpoints/train.109.pth",
+    1.3761739886055389,
+    {
+      "loss": 1.3761739886055389,
+      "_timer/data_time": 0.16758672396341961,
+      "_timer/model_time": 0.15616981188456217,
+      "_timer/batch_time": 0.32376837730407715,
+      "_timer/_fps": 799.7485848280155
+    }
+  ],
+  "epoch_109": [
+    "logs/checkpoints/train.110.pth",
+    1.347418340543906,
+    {
+      "loss": 1.347418340543906,
+      "_timer/data_time": 0.16658071676890057,
+      "_timer/model_time": 0.15088454882303873,
+      "_timer/batch_time": 0.3174765507380167,
+      "_timer/_fps": 778.5107352812718
+    }
+  ],
+  "epoch_110": [
+    "logs/checkpoints/train.111.pth",
+    1.4613800669709842,
+    {
+      "loss": 1.4613800669709842,
+      "_timer/data_time": 0.16432956854502362,
+      "_timer/model_time": 0.15622222423553467,
+      "_timer/batch_time": 0.3205622037251791,
+      "_timer/_fps": 828.8923056150286
+    }
+  ],
+  "epoch_111": [
+    "logs/checkpoints/train.112.pth",
+    1.3832368981093168,
+    {
+      "loss": 1.3832368981093168,
+      "_timer/data_time": 0.1632962226867676,
+      "_timer/model_time": 0.14888274669647217,
+      "_timer/batch_time": 0.31218934059143066,
+      "_timer/_fps": 776.062422133512
+    }
+  ],
+  "epoch_112": [
+    "logs/checkpoints/train.113.pth",
+    1.3016113148381312,
+    {
+      "loss": 1.3016113148381312,
+      "_timer/data_time": 0.15370547771453857,
+      "_timer/model_time": 0.151086688041687,
+      "_timer/batch_time": 0.3048020998636881,
+      "_timer/_fps": 816.7456175111324
+    }
+  ],
+  "epoch_113": [
+    "logs/checkpoints/train.114.pth",
+    1.4086459235598645,
+    {
+      "loss": 1.4086459235598645,
+      "_timer/data_time": 0.15832674503326416,
+      "_timer/model_time": 0.1574767827987671,
+      "_timer/batch_time": 0.3158144553502401,
+      "_timer/_fps": 767.5622372906629
+    }
+  ],
+  "epoch_114": [
+    "logs/checkpoints/train.115.pth",
+    1.283616816624999,
+    {
+      "loss": 1.283616816624999,
+      "_timer/data_time": 0.1599564552307129,
+      "_timer/model_time": 0.15906397501627603,
+      "_timer/batch_time": 0.31903211275736487,
+      "_timer/_fps": 752.5142747107867
+    }
+  ],
+  "epoch_115": [
+    "logs/checkpoints/train.116.pth",
+    1.4001531843096018,
+    {
+      "loss": 1.4001531843096018,
+      "_timer/data_time": 0.16719253857930502,
+      "_timer/model_time": 0.15035521984100342,
+      "_timer/batch_time": 0.3175581693649292,
+      "_timer/_fps": 784.716432384795
+    }
+  ],
+  "epoch_116": [
+    "logs/checkpoints/train.117.pth",
+    1.370963831121723,
+    {
+      "loss": 1.370963831121723,
+      "_timer/data_time": 0.1694002946217855,
+      "_timer/model_time": 0.15063544114430744,
+      "_timer/batch_time": 0.32004698117574054,
+      "_timer/_fps": 789.7496296852013
+    }
+  ],
+  "epoch_117": [
+    "logs/checkpoints/train.118.pth",
+    1.3524661523600419,
+    {
+      "loss": 1.3524661523600419,
+      "_timer/data_time": 0.1708449125289917,
+      "_timer/model_time": 0.14891362190246582,
+      "_timer/batch_time": 0.3197712500890096,
+      "_timer/_fps": 816.9355912859344
+    }
+  ],
+  "epoch_118": [
+    "logs/checkpoints/train.119.pth",
+    1.2653581090271473,
+    {
+      "loss": 1.2653581090271473,
+      "_timer/data_time": 0.16648360093434653,
+      "_timer/model_time": 0.1664849917093913,
+      "_timer/batch_time": 0.3329807917277018,
+      "_timer/_fps": 706.3783121692298
+    }
+  ],
+  "epoch_119": [
+    "logs/checkpoints/train.120.pth",
+    1.4690787413467963,
+    {
+      "loss": 1.4690787413467963,
+      "_timer/data_time": 0.170471986134847,
+      "_timer/model_time": 0.1563207705815633,
+      "_timer/batch_time": 0.3268032868703206,
+      "_timer/_fps": 747.4698667567421
+    }
+  ],
+  "epoch_120": [
+    "logs/checkpoints/train.121.pth",
+    1.2658449125786622,
+    {
+      "loss": 1.2658449125786622,
+      "_timer/data_time": 0.16020655632019043,
+      "_timer/model_time": 0.1522374153137207,
+      "_timer/batch_time": 0.31245485941569007,
+      "_timer/_fps": 764.7447739918574
+    }
+  ],
+  "epoch_121": [
+    "logs/checkpoints/train.122.pth",
+    1.2760165004680555,
+    {
+      "loss": 1.2760165004680555,
+      "_timer/data_time": 0.1656521956125895,
+      "_timer/model_time": 0.14850600560506183,
+      "_timer/batch_time": 0.31419412295023597,
+      "_timer/_fps": 772.3905314738903
+    }
+  ],
+  "epoch_122": [
+    "logs/checkpoints/train.123.pth",
+    1.3036897250761588,
+    {
+      "loss": 1.3036897250761588,
+      "_timer/data_time": 0.170305331548055,
+      "_timer/model_time": 0.15428515275319415,
+      "_timer/batch_time": 0.3246018091837565,
+      "_timer/_fps": 743.9297611720681
+    }
+  ],
+  "epoch_123": [
+    "logs/checkpoints/train.124.pth",
+    1.3138485898574193,
+    {
+      "loss": 1.3138485898574193,
+      "_timer/data_time": 0.16927746931711835,
+      "_timer/model_time": 0.149208664894104,
+      "_timer/batch_time": 0.3184976180394491,
+      "_timer/_fps": 790.2931156473201
+    }
+  ],
+  "epoch_124": [
+    "logs/checkpoints/train.125.pth",
+    1.313876655573646,
+    {
+      "loss": 1.313876655573646,
+      "_timer/data_time": 0.16271630922953287,
+      "_timer/model_time": 0.16030530134836835,
+      "_timer/batch_time": 0.32303293546040857,
+      "_timer/_fps": 734.4507705011099
+    }
+  ],
+  "epoch_125": [
+    "logs/checkpoints/train.126.pth",
+    1.3482352358599505,
+    {
+      "loss": 1.3482352358599505,
+      "_timer/data_time": 0.16840147972106934,
+      "_timer/model_time": 0.15362131595611572,
+      "_timer/batch_time": 0.32203567028045654,
+      "_timer/_fps": 812.4819993002169
+    }
+  ],
+  "epoch_126": [
+    "logs/checkpoints/train.127.pth",
+    1.3441076117257278,
+    {
+      "loss": 1.3441076117257278,
+      "_timer/data_time": 0.16433783372243244,
+      "_timer/model_time": 0.1551754077275594,
+      "_timer/batch_time": 0.3195251226425171,
+      "_timer/_fps": 776.4919495983588
+    }
+  ],
+  "epoch_127": [
+    "logs/checkpoints/train.128.pth",
+    1.314451892549793,
+    {
+      "loss": 1.314451892549793,
+      "_timer/data_time": 0.16694339116414386,
+      "_timer/model_time": 0.16995020707448324,
+      "_timer/batch_time": 0.33690496285756427,
+      "_timer/_fps": 778.9145858502061
+    }
+  ],
+  "epoch_128": [
+    "logs/checkpoints/train.129.pth",
+    1.2439217399805784,
+    {
+      "loss": 1.2439217399805784,
+      "_timer/data_time": 0.16107845306396484,
+      "_timer/model_time": 0.15372367699941,
+      "_timer/batch_time": 0.31481460730234784,
+      "_timer/_fps": 733.8598788089761
+    }
+  ],
+  "epoch_129": [
+    "logs/checkpoints/train.130.pth",
+    1.239763979179164,
+    {
+      "loss": 1.239763979179164,
+      "_timer/data_time": 0.1661640405654907,
+      "_timer/model_time": 0.15617295106252035,
+      "_timer/batch_time": 0.3223475217819214,
+      "_timer/_fps": 749.4757389635112
+    }
+  ],
+  "epoch_130": [
+    "logs/checkpoints/train.131.pth",
+    1.109831752255559,
+    {
+      "loss": 1.109831752255559,
+      "_timer/data_time": 0.15690910816192627,
+      "_timer/model_time": 0.15820372104644775,
+      "_timer/batch_time": 0.31512407461802167,
+      "_timer/_fps": 752.2803875323268
+    }
+  ],
+  "epoch_131": [
+    "logs/checkpoints/train.132.pth",
+    1.2410389066984258,
+    {
+      "loss": 1.2410389066984258,
+      "_timer/data_time": 0.16607773303985596,
+      "_timer/model_time": 0.15228645006815592,
+      "_timer/batch_time": 0.31837435563405353,
+      "_timer/_fps": 800.815908354636
+    }
+  ],
+  "epoch_132": [
+    "logs/checkpoints/train.133.pth",
+    1.2891387222334743,
+    {
+      "loss": 1.2891387222334743,
+      "_timer/data_time": 0.1644808053970337,
+      "_timer/model_time": 0.15987320741017658,
+      "_timer/batch_time": 0.3243665297826131,
+      "_timer/_fps": 741.1173943077329
+    }
+  ],
+  "epoch_133": [
+    "logs/checkpoints/train.134.pth",
+    1.2745634814103446,
+    {
+      "loss": 1.2745634814103446,
+      "_timer/data_time": 0.1610005299250285,
+      "_timer/model_time": 0.16121530532836914,
+      "_timer/batch_time": 0.32222747802734375,
+      "_timer/_fps": 739.6135438926528
+    }
+  ],
+  "epoch_134": [
+    "logs/checkpoints/train.135.pth",
+    1.2924747206270695,
+    {
+      "loss": 1.2924747206270695,
+      "_timer/data_time": 0.1704108715057373,
+      "_timer/model_time": 0.15557336807250977,
+      "_timer/batch_time": 0.32599476973215735,
+      "_timer/_fps": 759.9531156048682
+    }
+  ],
+  "epoch_135": [
+    "logs/checkpoints/train.136.pth",
+    1.2722609086583057,
+    {
+      "loss": 1.2722609086583057,
+      "_timer/data_time": 0.16330389181772867,
+      "_timer/model_time": 0.16223537921905518,
+      "_timer/batch_time": 0.32555460929870605,
+      "_timer/_fps": 725.7645600951686
+    }
+  ],
+  "epoch_136": [
+    "logs/checkpoints/train.137.pth",
+    1.250504504578809,
+    {
+      "loss": 1.250504504578809,
+      "_timer/data_time": 0.16772894064585367,
+      "_timer/model_time": 0.15265405178070068,
+      "_timer/batch_time": 0.3203953107198079,
+      "_timer/_fps": 816.7286952257215
+    }
+  ],
+  "epoch_137": [
+    "logs/checkpoints/train.138.pth",
+    1.2108461267004411,
+    {
+      "loss": 1.2108461267004411,
+      "_timer/data_time": 0.16478208700815838,
+      "_timer/model_time": 0.15493102868398032,
+      "_timer/batch_time": 0.3197249174118042,
+      "_timer/_fps": 744.5808414063985
+    }
+  ],
+  "epoch_138": [
+    "logs/checkpoints/train.139.pth",
+    1.2294730016340811,
+    {
+      "loss": 1.2294730016340811,
+      "_timer/data_time": 0.17223529020945233,
+      "_timer/model_time": 0.16100072860717773,
+      "_timer/batch_time": 0.33324853579203284,
+      "_timer/_fps": 748.2445190438307
+    }
+  ],
+  "epoch_139": [
+    "logs/checkpoints/train.140.pth",
+    1.278405720057587,
+    {
+      "loss": 1.278405720057587,
+      "_timer/data_time": 0.15814228852589923,
+      "_timer/model_time": 0.15501526991526288,
+      "_timer/batch_time": 0.3131690422693888,
+      "_timer/_fps": 777.8974993586072
+    }
+  ],
+  "epoch_140": [
+    "logs/checkpoints/train.141.pth",
+    1.3252916823451717,
+    {
+      "loss": 1.3252916823451717,
+      "_timer/data_time": 0.1585434277852376,
+      "_timer/model_time": 0.15535744031270346,
+      "_timer/batch_time": 0.3139127890268962,
+      "_timer/_fps": 755.8194307961409
+    }
+  ],
+  "epoch_141": [
+    "logs/checkpoints/train.142.pth",
+    1.1966700218617916,
+    {
+      "loss": 1.1966700218617916,
+      "_timer/data_time": 0.16974588235219318,
+      "_timer/model_time": 0.1552080710728963,
+      "_timer/batch_time": 0.3249654372533163,
+      "_timer/_fps": 799.116577356865
+    }
+  ],
+  "epoch_142": [
+    "logs/checkpoints/train.143.pth",
+    1.1997809006522098,
+    {
+      "loss": 1.1997809006522098,
+      "_timer/data_time": 0.16554784774780273,
+      "_timer/model_time": 0.1599745750427246,
+      "_timer/batch_time": 0.3255329926808675,
+      "_timer/_fps": 771.7753177043151
+    }
+  ],
+  "epoch_143": [
+    "logs/checkpoints/train.144.pth",
+    1.250456445850432,
+    {
+      "loss": 1.250456445850432,
+      "_timer/data_time": 0.16551434993743896,
+      "_timer/model_time": 0.1503974994023641,
+      "_timer/batch_time": 0.31592273712158203,
+      "_timer/_fps": 807.610340287584
+    }
+  ],
+  "epoch_144": [
+    "logs/checkpoints/train.145.pth",
+    1.303014197697242,
+    {
+      "loss": 1.303014197697242,
+      "_timer/data_time": 0.1671941677729289,
+      "_timer/model_time": 0.16505567232767743,
+      "_timer/batch_time": 0.33226068814595544,
+      "_timer/_fps": 731.638091933719
+    }
+  ],
+  "epoch_145": [
+    "logs/checkpoints/train.146.pth",
+    1.2990157986059785,
+    {
+      "loss": 1.2990157986059785,
+      "_timer/data_time": 0.1585483153661092,
+      "_timer/model_time": 0.15388337771097818,
+      "_timer/batch_time": 0.3124423027038574,
+      "_timer/_fps": 755.5814597120647
+    }
+  ],
+  "epoch_146": [
+    "logs/checkpoints/train.147.pth",
+    1.2946761455386877,
+    {
+      "loss": 1.2946761455386877,
+      "_timer/data_time": 0.15464842319488528,
+      "_timer/model_time": 0.15707385540008545,
+      "_timer/batch_time": 0.31173439820607507,
+      "_timer/_fps": 772.2503181256092
+    }
+  ],
+  "epoch_147": [
+    "logs/checkpoints/train.148.pth",
+    1.286444514989853,
+    {
+      "loss": 1.286444514989853,
+      "_timer/data_time": 0.15782833099365234,
+      "_timer/model_time": 0.15892656644185382,
+      "_timer/batch_time": 0.3167655070622762,
+      "_timer/_fps": 772.5169887116712
+    }
+  ],
+  "epoch_148": [
+    "logs/checkpoints/train.149.pth",
+    1.3091210418691237,
+    {
+      "loss": 1.3091210418691237,
+      "_timer/data_time": 0.16187079747517902,
+      "_timer/model_time": 0.15385663509368896,
+      "_timer/batch_time": 0.31573895613352454,
+      "_timer/_fps": 753.1311260522713
+    }
+  ],
+  "epoch_149": [
+    "logs/checkpoints/train.150.pth",
+    1.3799654447163145,
+    {
+      "loss": 1.3799654447163145,
+      "_timer/data_time": 0.15741054217020672,
+      "_timer/model_time": 0.16326403617858887,
+      "_timer/batch_time": 0.3206874529520671,
+      "_timer/_fps": 735.2355277613243
+    }
+  ],
+  "epoch_150": [
+    "logs/checkpoints/train.151.pth",
+    1.3768895268440247,
+    {
+      "loss": 1.3768895268440247,
+      "_timer/data_time": 0.1637012958526611,
+      "_timer/model_time": 0.16407644748687744,
+      "_timer/batch_time": 0.32779018084208167,
+      "_timer/_fps": 726.3272151973099
+    }
+  ],
+  "epoch_151": [
+    "logs/checkpoints/train.152.pth",
+    1.3839695152516165,
+    {
+      "loss": 1.3839695152516165,
+      "_timer/data_time": 0.16808784008026123,
+      "_timer/model_time": 0.15684282779693604,
+      "_timer/batch_time": 0.3249409596125285,
+      "_timer/_fps": 789.9858059493465
+    }
+  ],
+  "epoch_152": [
+    "logs/checkpoints/train.153.pth",
+    1.4355687582865357,
+    {
+      "loss": 1.4355687582865357,
+      "_timer/data_time": 0.15151298046112063,
+      "_timer/model_time": 0.15421247482299805,
+      "_timer/batch_time": 0.3057394822438558,
+      "_timer/_fps": 775.0502241797543
+    }
+  ],
+  "epoch_153": [
+    "logs/checkpoints/train.154.pth",
+    1.4874103705709179,
+    {
+      "loss": 1.4874103705709179,
+      "_timer/data_time": 0.15612014134724933,
+      "_timer/model_time": 0.1413715680440267,
+      "_timer/batch_time": 0.29750271638234455,
+      "_timer/_fps": 893.8524415192541
+    }
+  ],
+  "epoch_154": [
+    "logs/checkpoints/train.155.pth",
+    1.4391380551581583,
+    {
+      "loss": 1.4391380551581583,
+      "_timer/data_time": 0.1568010648091634,
+      "_timer/model_time": 0.13332486152648926,
+      "_timer/batch_time": 0.2901366949081421,
+      "_timer/_fps": 888.9793125731561
+    }
+  ],
+  "epoch_155": [
+    "logs/checkpoints/train.156.pth",
+    1.4673603090147176,
+    {
+      "loss": 1.4673603090147176,
+      "_timer/data_time": 0.15780580043792725,
+      "_timer/model_time": 0.1337305704752604,
+      "_timer/batch_time": 0.2915462652842204,
+      "_timer/_fps": 914.9825576739352
+    }
+  ],
+  "epoch_156": [
+    "logs/checkpoints/train.157.pth",
+    1.3985700470705829,
+    {
+      "loss": 1.3985700470705829,
+      "_timer/data_time": 0.16148026784261066,
+      "_timer/model_time": 0.15012220541636148,
+      "_timer/batch_time": 0.3116133610407511,
+      "_timer/_fps": 781.8373416921153
+    }
+  ],
+  "epoch_157": [
+    "logs/checkpoints/train.158.pth",
+    1.4581649371733267,
+    {
+      "loss": 1.4581649371733267,
+      "_timer/data_time": 0.1542289654413859,
+      "_timer/model_time": 0.12929284572601318,
+      "_timer/batch_time": 0.2835327784220378,
+      "_timer/_fps": 890.8297247571875
+    }
+  ],
+  "epoch_158": [
+    "logs/checkpoints/train.159.pth",
+    1.4716687873005867,
+    {
+      "loss": 1.4716687873005867,
+      "_timer/data_time": 0.16097168127695716,
+      "_timer/model_time": 0.13796325524648032,
+      "_timer/batch_time": 0.29894498984018963,
+      "_timer/_fps": 946.9791544658937
+    }
+  ],
+  "epoch_159": [
+    "logs/checkpoints/train.160.pth",
+    1.4103142709160845,
+    {
+      "loss": 1.4103142709160845,
+      "_timer/data_time": 0.1631209452946981,
+      "_timer/model_time": 0.14674866199493408,
+      "_timer/batch_time": 0.30988001823425293,
+      "_timer/_fps": 885.3405575690012
+    }
+  ],
+  "epoch_160": [
+    "logs/checkpoints/train.161.pth",
+    1.3998665086304147,
+    {
+      "loss": 1.3998665086304147,
+      "_timer/data_time": 0.15370170275370282,
+      "_timer/model_time": 0.13106314341227215,
+      "_timer/batch_time": 0.28477565447489417,
+      "_timer/_fps": 936.2630463940534
+    }
+  ],
+  "epoch_161": [
+    "logs/checkpoints/train.162.pth",
+    1.5780741774166622,
+    {
+      "loss": 1.5780741774166622,
+      "_timer/data_time": 0.1604111591974894,
+      "_timer/model_time": 0.13805262247721356,
+      "_timer/batch_time": 0.29847470919291175,
+      "_timer/_fps": 848.4504006325953
+    }
+  ],
+  "epoch_162": [
+    "logs/checkpoints/train.163.pth",
+    1.2991051473654807,
+    {
+      "loss": 1.2991051473654807,
+      "_timer/data_time": 0.15464909871419272,
+      "_timer/model_time": 0.1289950211842855,
+      "_timer/batch_time": 0.2836548884709676,
+      "_timer/_fps": 957.7055189814604
+    }
+  ],
+  "epoch_163": [
+    "logs/checkpoints/train.164.pth",
+    1.4372834733997781,
+    {
+      "loss": 1.4372834733997781,
+      "_timer/data_time": 0.1570777098337809,
+      "_timer/model_time": 0.13368570804595947,
+      "_timer/batch_time": 0.290773868560791,
+      "_timer/_fps": 898.629325398705
+    }
+  ],
+  "epoch_164": [
+    "logs/checkpoints/train.165.pth",
+    1.4381285912046828,
+    {
+      "loss": 1.4381285912046828,
+      "_timer/data_time": 0.1666789452234904,
+      "_timer/model_time": 0.1609747012456258,
+      "_timer/batch_time": 0.32766735553741455,
+      "_timer/_fps": 734.6739701634566
+    }
+  ],
+  "epoch_165": [
+    "logs/checkpoints/train.166.pth",
+    1.3828492922087512,
+    {
+      "loss": 1.3828492922087512,
+      "_timer/data_time": 0.16311279932657877,
+      "_timer/model_time": 0.1535137097040812,
+      "_timer/batch_time": 0.31663739681243896,
+      "_timer/_fps": 756.2639084857823
+    }
+  ],
+  "epoch_166": [
+    "logs/checkpoints/train.167.pth",
+    1.3675124455864232,
+    {
+      "loss": 1.3675124455864232,
+      "_timer/data_time": 0.16533370812733966,
+      "_timer/model_time": 0.15699326992034912,
+      "_timer/batch_time": 0.32233695189158124,
+      "_timer/_fps": 805.6952433086813
+    }
+  ],
+  "epoch_167": [
+    "logs/checkpoints/train.168.pth",
+    1.3328083547142646,
+    {
+      "loss": 1.3328083547142646,
+      "_timer/data_time": 0.16482885678609213,
+      "_timer/model_time": 0.14847056070963544,
+      "_timer/batch_time": 0.31331002712249756,
+      "_timer/_fps": 784.9145804412008
+    }
+  ],
+  "epoch_168": [
+    "logs/checkpoints/train.169.pth",
+    1.5490037884252768,
+    {
+      "loss": 1.5490037884252768,
+      "_timer/data_time": 0.16243306795756024,
+      "_timer/model_time": 0.14728800455729166,
+      "_timer/batch_time": 0.309731125831604,
+      "_timer/_fps": 841.4910038158032
+    }
+  ],
+  "epoch_169": [
+    "logs/checkpoints/train.170.pth",
+    1.4407872847902279,
+    {
+      "loss": 1.4407872847902279,
+      "_timer/data_time": 0.15947461128234863,
+      "_timer/model_time": 0.1433604558308919,
+      "_timer/batch_time": 0.30284547805786133,
+      "_timer/_fps": 880.021900642298
+    }
+  ],
+  "epoch_170": [
+    "logs/checkpoints/train.171.pth",
+    1.4119469633636375,
+    {
+      "loss": 1.4119469633636375,
+      "_timer/data_time": 0.15769966443379718,
+      "_timer/model_time": 0.156478484471639,
+      "_timer/batch_time": 0.3141897122065226,
+      "_timer/_fps": 760.2407420102945
+    }
+  ],
+  "epoch_171": [
+    "logs/checkpoints/train.172.pth",
+    1.3266703551635146,
+    {
+      "loss": 1.3266703551635146,
+      "_timer/data_time": 0.1601347923278809,
+      "_timer/model_time": 0.15160504976908368,
+      "_timer/batch_time": 0.3117500146230062,
+      "_timer/_fps": 825.393051422667
+    }
+  ],
+  "epoch_172": [
+    "logs/checkpoints/train.173.pth",
+    1.3498642769021292,
+    {
+      "loss": 1.3498642769021292,
+      "_timer/data_time": 0.15943507353464761,
+      "_timer/model_time": 0.1503125031789144,
+      "_timer/batch_time": 0.3097585439682007,
+      "_timer/_fps": 787.0810963003172
+    }
+  ],
+  "epoch_173": [
+    "logs/checkpoints/train.174.pth",
+    1.3079071493508916,
+    {
+      "loss": 1.3079071493508916,
+      "_timer/data_time": 0.15872458616892496,
+      "_timer/model_time": 0.16571609179178873,
+      "_timer/batch_time": 0.3244507312774658,
+      "_timer/_fps": 735.6807931711278
+    }
+  ],
+  "epoch_174": [
+    "logs/checkpoints/train.175.pth",
+    1.4337010209759076,
+    {
+      "loss": 1.4337010209759076,
+      "_timer/data_time": 0.15891667207082116,
+      "_timer/model_time": 0.1597964366277059,
+      "_timer/batch_time": 0.3187248706817627,
+      "_timer/_fps": 745.2254333098969
+    }
+  ],
+  "epoch_175": [
+    "logs/checkpoints/train.176.pth",
+    1.245594917330891,
+    {
+      "loss": 1.245594917330891,
+      "_timer/data_time": 0.16442644596099856,
+      "_timer/model_time": 0.14412780602773032,
+      "_timer/batch_time": 0.3085659344991048,
+      "_timer/_fps": 831.307628177487
+    }
+  ],
+  "epoch_176": [
+    "logs/checkpoints/train.177.pth",
+    1.3049701671116054,
+    {
+      "loss": 1.3049701671116054,
+      "_timer/data_time": 0.15957450866699216,
+      "_timer/model_time": 0.15408992767333984,
+      "_timer/batch_time": 0.3136750857035319,
+      "_timer/_fps": 782.7962437236116
+    }
+  ],
+  "epoch_177": [
+    "logs/checkpoints/train.178.pth",
+    1.4134455011226237,
+    {
+      "loss": 1.4134455011226237,
+      "_timer/data_time": 0.158576766649882,
+      "_timer/model_time": 0.14687180519104004,
+      "_timer/batch_time": 0.30545945962270105,
+      "_timer/_fps": 811.7061091955163
+    }
+  ],
+  "epoch_178": [
+    "logs/checkpoints/train.179.pth",
+    1.448501802670459,
+    {
+      "loss": 1.448501802670459,
+      "_timer/data_time": 0.15695412953694662,
+      "_timer/model_time": 0.15959060192108154,
+      "_timer/batch_time": 0.31655704975128174,
+      "_timer/_fps": 728.1696235025695
+    }
+  ],
+  "epoch_179": [
+    "logs/checkpoints/train.180.pth",
+    1.4397969678975642,
+    {
+      "loss": 1.4397969678975642,
+      "_timer/data_time": 0.16321170330047607,
+      "_timer/model_time": 0.15607305367787677,
+      "_timer/batch_time": 0.3192979494730631,
+      "_timer/_fps": 796.1871771196743
+    }
+  ],
+  "epoch_180": [
+    "logs/checkpoints/train.181.pth",
+    1.3157599413146577,
+    {
+      "loss": 1.3157599413146577,
+      "_timer/data_time": 0.15249486764272055,
+      "_timer/model_time": 0.15810608863830566,
+      "_timer/batch_time": 0.3106115261713664,
+      "_timer/_fps": 745.8913279634803
+    }
+  ],
+  "epoch_181": [
+    "logs/checkpoints/train.182.pth",
+    1.4079501630427937,
+    {
+      "loss": 1.4079501630427937,
+      "_timer/data_time": 0.16351211071014404,
+      "_timer/model_time": 0.14785254001617432,
+      "_timer/batch_time": 0.3113745848337809,
+      "_timer/_fps": 803.9465856826812
+    }
+  ],
+  "epoch_182": [
+    "logs/checkpoints/train.183.pth",
+    1.294374977548917,
+    {
+      "loss": 1.294374977548917,
+      "_timer/data_time": 0.15786612033843994,
+      "_timer/model_time": 0.1573944091796875,
+      "_timer/batch_time": 0.3152716557184855,
+      "_timer/_fps": 753.7392808411598
+    }
+  ],
+  "epoch_183": [
+    "logs/checkpoints/train.184.pth",
+    1.4368610447272658,
+    {
+      "loss": 1.4368610447272658,
+      "_timer/data_time": 0.19240283966064453,
+      "_timer/model_time": 0.16225941975911456,
+      "_timer/batch_time": 0.3546728690465291,
+      "_timer/_fps": 774.2573477303613
+    }
+  ],
+  "epoch_184": [
+    "logs/checkpoints/train.185.pth",
+    1.4202065056500335,
+    {
+      "loss": 1.4202065056500335,
+      "_timer/data_time": 0.15933636824289957,
+      "_timer/model_time": 0.14189120133717856,
+      "_timer/batch_time": 0.30123821894327796,
+      "_timer/_fps": 840.8354924236005
+    }
+  ],
+  "epoch_185": [
+    "logs/checkpoints/train.186.pth",
+    1.3369079932260017,
+    {
+      "loss": 1.3369079932260017,
+      "_timer/data_time": 0.15592094262441003,
+      "_timer/model_time": 0.14558148384094238,
+      "_timer/batch_time": 0.301512877146403,
+      "_timer/_fps": 831.4777450838616
+    }
+  ],
+  "epoch_186": [
+    "logs/checkpoints/train.187.pth",
+    1.4525138364794352,
+    {
+      "loss": 1.4525138364794352,
+      "_timer/data_time": 0.1574639876683553,
+      "_timer/model_time": 0.14849615097045898,
+      "_timer/batch_time": 0.3059718608856201,
+      "_timer/_fps": 853.4728254030724
+    }
+  ],
+  "epoch_187": [
+    "logs/checkpoints/train.188.pth",
+    1.439704085700214,
+    {
+      "loss": 1.439704085700214,
+      "_timer/data_time": 0.16101090113321942,
+      "_timer/model_time": 0.14569429556528726,
+      "_timer/batch_time": 0.30671552817026776,
+      "_timer/_fps": 838.604421506576
+    }
+  ],
+  "epoch_188": [
+    "logs/checkpoints/train.189.pth",
+    1.4119899572494128,
+    {
+      "loss": 1.4119899572494128,
+      "_timer/data_time": 0.16649587949117028,
+      "_timer/model_time": 0.15601372718811035,
+      "_timer/batch_time": 0.32252021630605066,
+      "_timer/_fps": 785.8920227350004
+    }
+  ],
+  "epoch_189": [
+    "logs/checkpoints/train.190.pth",
+    1.3166451666814587,
+    {
+      "loss": 1.3166451666814587,
+      "_timer/data_time": 0.15826845169067383,
+      "_timer/model_time": 0.14071929454803467,
+      "_timer/batch_time": 0.2989985942840576,
+      "_timer/_fps": 818.7096358363059
+    }
+  ],
+  "epoch_190": [
+    "logs/checkpoints/train.191.pth",
+    1.3958515340151885,
+    {
+      "loss": 1.3958515340151885,
+      "_timer/data_time": 0.16083125273386634,
+      "_timer/model_time": 0.14733711878458658,
+      "_timer/batch_time": 0.3081801335016886,
+      "_timer/_fps": 825.1915242442474
+    }
+  ],
+  "epoch_191": [
+    "logs/checkpoints/train.192.pth",
+    1.385604003444314,
+    {
+      "loss": 1.385604003444314,
+      "_timer/data_time": 0.16254202524820965,
+      "_timer/model_time": 0.14030667146046957,
+      "_timer/batch_time": 0.302859902381897,
+      "_timer/_fps": 888.00480132393
+    }
+  ],
+  "epoch_192": [
+    "logs/checkpoints/train.193.pth",
+    1.3888387219049037,
+    {
+      "loss": 1.3888387219049037,
+      "_timer/data_time": 0.19013317426045734,
+      "_timer/model_time": 0.17095176378885904,
+      "_timer/batch_time": 0.3610973755518595,
+      "_timer/_fps": 667.1537801625467
+    }
+  ],
+  "epoch_193": [
+    "logs/checkpoints/train.194.pth",
+    1.415175374597311,
+    {
+      "loss": 1.415175374597311,
+      "_timer/data_time": 0.16191542148590088,
+      "_timer/model_time": 0.16270136833190918,
+      "_timer/batch_time": 0.32462914784749347,
+      "_timer/_fps": 722.359405714302
+    }
+  ],
+  "epoch_194": [
+    "logs/checkpoints/train.195.pth",
+    1.3755923096711438,
+    {
+      "loss": 1.3755923096711438,
+      "_timer/data_time": 0.15525345007578534,
+      "_timer/model_time": 0.15194916725158691,
+      "_timer/batch_time": 0.3072136640548706,
+      "_timer/_fps": 773.8997380337048
+    }
+  ],
+  "epoch_195": [
+    "logs/checkpoints/train.196.pth",
+    1.4069106007615724,
+    {
+      "loss": 1.4069106007615724,
+      "_timer/data_time": 0.15922248363494873,
+      "_timer/model_time": 0.1629101832707723,
+      "_timer/batch_time": 0.3221449851989746,
+      "_timer/_fps": 753.2332250585272
+    }
+  ],
+  "epoch_196": [
+    "logs/checkpoints/train.197.pth",
+    1.432305300918718,
+    {
+      "loss": 1.432305300918718,
+      "_timer/data_time": 0.16417940457661948,
+      "_timer/model_time": 0.16354544957478842,
+      "_timer/batch_time": 0.3277360995610555,
+      "_timer/_fps": 780.142451738972
+    }
+  ],
+  "epoch_197": [
+    "logs/checkpoints/train.198.pth",
+    1.4194158387059967,
+    {
+      "loss": 1.4194158387059967,
+      "_timer/data_time": 0.16301095485687256,
+      "_timer/model_time": 0.1397784153620402,
+      "_timer/batch_time": 0.3027993440628052,
+      "_timer/_fps": 928.7073143744003
+    }
+  ],
+  "epoch_198": [
+    "logs/checkpoints/train.199.pth",
+    1.5090229186074187,
+    {
+      "loss": 1.5090229186074187,
+      "_timer/data_time": 0.1639715035756429,
+      "_timer/model_time": 0.1414933204650879,
+      "_timer/batch_time": 0.30547591050465905,
+      "_timer/_fps": 884.9122647253035
+    }
+  ],
+  "epoch_199": [
+    "logs/checkpoints/train.200.pth",
+    1.4052194271547098,
+    {
+      "loss": 1.4052194271547098,
+      "_timer/data_time": 0.17813448111216226,
+      "_timer/model_time": 0.18721381823221842,
+      "_timer/batch_time": 0.36536304155985516,
+      "_timer/_fps": 673.3186205314057
     }
   ]
 }

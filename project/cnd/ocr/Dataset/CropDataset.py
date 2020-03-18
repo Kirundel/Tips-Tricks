@@ -25,7 +25,23 @@ class CropDataset(Dataset):
         self.Train = CropSubDataset(self.files_path, data[0], transforms, cached)
         self.Validate = CropSubDataset(self.files_path, data[1], transforms, cached)
         self.Test = CropSubDataset(self.files_path, data[2], transforms, cached)
-
+        
+        
+class GeneratedDataset(Dataset):
+    def __init__(self, transforms=None, cached=True, random_seed='132131321'):
+        seed(random_seed)
+        self.files_path = dirname(__file__) + '/Generated/'
+        data = [[], [], []]
+        for picture in listdir(self.files_path):
+            rnd_val = random()
+            for i in range(len(random_borders)):
+                if random_borders[i] >= rnd_val:
+                    data[i].append(picture)
+                    break
+        self.Train = CropSubDataset(self.files_path, data[0], transforms, cached)
+        self.Validate = CropSubDataset(self.files_path, data[1], transforms, cached)
+        self.Test = CropSubDataset(self.files_path, data[2], transforms, cached)
+        
 
 class CropSubDataset(Dataset):
     def __init__(self, files_path, data, transforms, cached):

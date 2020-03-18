@@ -44,9 +44,20 @@ class RandomRotate:
         return cv2.rotate(image, angle)
 
 
+class OneChannel:
+    def __call__(self, image):
+        arr = (image[:, :, 0] + image[:, :, 1] + image[:, :, 2]) / 3.0
+        return arr
+        #edgesx = cv2.Sobel(arr, cv2.CV_32F, 1, 0, ksize=3)
+        #edgesy = cv2.Sobel(arr, cv2.CV_32F, 0, 1, ksize=3)
+        #edges = np.linalg.norm([edgesx, edgesy], axis=0)
+        #edges /= np.max(edges)
+        #return edges
+
+
 class TorchTransform:
     def __call__(self, image):
-        return np.transpose(image, (2, 0, 1))
+        return np.array([image])
 
 
 def get_transforms(device):
@@ -54,6 +65,8 @@ def get_transforms(device):
         ToTypeTransform(np.float32),
         ImageNormalization(),
         ScaleTransform((80, 32)),
+        #ScaleTransform((160, 64)),
+        OneChannel(),
         TorchTransform()
         #RandomRotate(10),
         #ToTensor(device)
