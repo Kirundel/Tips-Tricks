@@ -23,7 +23,6 @@ class Predictor:
         for i in range(len(images)):
             for transform in self.transforms:
                 images[i] = transform(images[i])
-            print(images[i].shape)
 
         arr = torch.tensor(np.stack(images))
 
