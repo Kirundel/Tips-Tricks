@@ -1,7 +1,8 @@
 import torch
 import numpy as np
 import cv2
-from random import uniform
+from random import randint
+from imutils import rotate
 
 
 class ImageNormalization:
@@ -40,9 +41,22 @@ class RandomRotate:
         self.rotation_angle = rotation_angle
 
     def __call__(self, image):
-        angle = int(uniform(-self.rotation_angle, self.rotation_angle) + 0.5)
-        return cv2.rotate(image, angle)
+        angle = randint(-self.rotation_angle, self.rotation_angle)
+        return rotate(image, angle)
 
+
+class RandomCrop:
+    def __init__(self, crop_percent):
+        self.crop_ratio = crop_percent / 100
+
+    def __call__(self, image):
+        tmp_x = int(self.crop_ratio * image.shape[0])
+        x_l = randint(0, tmp_x)
+        x_r = randint(image.shape[0] - tmp_x, image.shape[0])
+        tmp_y = int(self.crop_ratio * image.shape[1])
+        y_l = randint(0, tmp_y)
+        y_r = randint(image.shape[1] - tmp_y, image.shape[1])
+        return image[x_l:x_r, y_l:y_r]
 
 class OneChannel:
     def __call__(self, image):
@@ -64,10 +78,11 @@ def get_transforms(device):
     return [
         ToTypeTransform(np.float32),
         ImageNormalization(),
+        RandomCrop(7),
         ScaleTransform((80, 32)),
         #ScaleTransform((160, 64)),
         OneChannel(),
+        RandomRotate(10),
         TorchTransform()
-        #RandomRotate(10),
         #ToTensor(device)
     ]

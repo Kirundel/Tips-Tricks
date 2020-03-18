@@ -4,12 +4,13 @@ import warnings
 warnings.simplefilter("ignore")
 
 from torch.utils.data import DataLoader
-from Dataset.CropDataset import CropDataset, GeneratedDataset
+from Dataset.CropDataset import CropDataset, GeneratedDataset, CommonDataset
 from model import CRNN
 from config import OCR_EXPERIMENTS_DIR, CONFIG_PATH, Config
 from transforms import get_transforms
-from metrics import WrapCTCLoss
+from metrics import WrapCTCLoss, WrapAccuracy
 from catalyst.dl import SupervisedRunner, CheckpointCallback
+from CustomCallback import CustomCallback
 import string
 from pathlib import Path
 import torch
@@ -37,7 +38,7 @@ DATASET_PATHS = [
 # CHANGE YOUR BATCH SIZE
 BATCH_SIZE = 100
 # 400 EPOCH SHOULD BE ENOUGH
-NUM_EPOCHS = 200
+NUM_EPOCHS = 500
 #NUM_EPOCHS = 25
 
 #alphabet = " "
@@ -70,7 +71,8 @@ if __name__ == "__main__":
     # define data path
 
     #dataset = CropDataset(transforms=transforms, cached=False)
-    dataset = GeneratedDataset(transforms = transforms, cached=False)
+    #dataset = GeneratedDataset(transforms = transforms, cached=False)
+    dataset = CommonDataset(transforms = transforms, cached=False)
     train_dataset = dataset.Train # define your dataset
 
     train_loader = DataLoader(
@@ -93,7 +95,10 @@ if __name__ == "__main__":
     optimizer = torch.optim.Adam(model.parameters())
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer)
     # define callbacks if any
-    callbacks = [CheckpointCallback(save_n_best=10)]
+    callbacks = [
+        CheckpointCallback(save_n_best=10),
+        CustomCallback(metric_names=['accuracy'], meter_list=[WrapAccuracy(alphabet)])
+    ]
     # input_keys - which key from dataloader we need to pass to the model
     runner = SupervisedRunner(input_key="image", input_target_key="targets")
 

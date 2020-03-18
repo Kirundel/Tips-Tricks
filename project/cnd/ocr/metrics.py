@@ -31,6 +31,15 @@ class WrapAccuracy(nn.Module):
         super().__init__()
         self.converter = strLabelConverter(alphabet)
         self.device = device
+        self.sum = 0
+        self.count = 0
+
+    def reset(self):
+        self.sum = 0
+        self.count = 0
+
+    def value(self):
+        return self.sum / self.count
 
     def preds_converter(self, logits, len_images):
         preds_size = torch.IntTensor([logits.size(0)] * len_images)
@@ -39,18 +48,15 @@ class WrapAccuracy(nn.Module):
         sim_preds = self.converter.decode(preds, preds_size, raw=False)
         return sim_preds, preds_size
 
-    def __call__(self, logits, targets):
+    def add(self, logits, targets):
         text, length = self.converter.encode(targets)
         text, length = text.to(self.device), length.to(self.device)
         sim_preds, preds_size = self.preds_converter(logits, len(targets))
-        accuracy = 0.0
-        delta = 1.0 / len(targets)
+        self.count += len(targets)
         for cnt in range(len(targets)):
-            if torch.equal(sim_preds[cnt], targets[cnt]):
-                accuracy += delta
+            if sim_preds[cnt] == targets[cnt]:
+                self.sum += 1
 
-        loss = self.loss(logits, text, preds_size, length)
-        return loss
 
 #TODO: ADD ACCURACY https://catalyst-team.github.io/catalyst/_modules/catalyst/dl/callbacks/metrics/accuracy.html
 # YOU WILL NEED TO WRAP STANDARD ACCURACY, AS CTCLOSS ABOVE
