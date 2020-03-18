@@ -1,18 +1,32 @@
-# HERE YOUR PREDICTOR
 import torch
+import numpy as np
+from transforms import get_transforms_without_augmentations
+from converter import strLabelConverter
+from model import CRNN
+from common import preds_converter, alphabet, model_parameters
 
 
 class Predictor:
-    def __init__(self, model_path, image_size, converter, device="cuda"):
-
-        self.model = torch.load(model_path).to(device)
-        self.ocr_image_size = image_size
-        self.transform =  #TODO: prediction_transform
-        self.converter = converter
+    def __init__(self, device="cpu"):
+        self.model = CRNN(
+            **model_parameters
+        )
+        model_data = torch.load('logs/checkpoints/best_full.pth')
+        self.model.load_state_dict(model_data['model_state_dict'])
+        self.transforms = get_transforms_without_augmentations(device)
+        self.converter = strLabelConverter(alphabet)
 
     def predict(self, images):
-        #TODO: check for correct input type, you can receive one image [x,y,3] or batch [b,x,y,3]
-        images = self.transform(images)
-        pred = self.model.predict({"image": images})
-        text = self.converter(pred)
+        if type(images) != list:
+            images = [images]
+
+        for i in range(len(images)):
+            for transform in self.transforms:
+                images[i] = transform(images[i])
+            print(images[i].shape)
+
+        arr = torch.tensor(np.stack(images))
+
+        pred = self.model(arr)
+        text, _ = preds_converter(self.converter, pred, len(images))
         return text

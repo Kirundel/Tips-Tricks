@@ -58,15 +58,11 @@ class RandomCrop:
         y_r = randint(image.shape[1] - tmp_y, image.shape[1])
         return image[x_l:x_r, y_l:y_r]
 
-class OneChannel:
+
+class OneChannelTransform:
     def __call__(self, image):
         arr = (image[:, :, 0] + image[:, :, 1] + image[:, :, 2]) / 3.0
         return arr
-        #edgesx = cv2.Sobel(arr, cv2.CV_32F, 1, 0, ksize=3)
-        #edgesy = cv2.Sobel(arr, cv2.CV_32F, 0, 1, ksize=3)
-        #edges = np.linalg.norm([edgesx, edgesy], axis=0)
-        #edges /= np.max(edges)
-        #return edges
 
 
 class TorchTransform:
@@ -80,9 +76,17 @@ def get_transforms(device):
         ImageNormalization(),
         RandomCrop(7),
         ScaleTransform((80, 32)),
-        #ScaleTransform((160, 64)),
-        OneChannel(),
+        OneChannelTransform(),
         RandomRotate(10),
         TorchTransform()
-        #ToTensor(device)
+    ]
+
+
+def get_transforms_without_augmentations(device):
+    return [
+        ToTypeTransform(np.float32),
+        ImageNormalization(),
+        ScaleTransform((80, 32)),
+        OneChannelTransform(),
+        TorchTransform()
     ]
