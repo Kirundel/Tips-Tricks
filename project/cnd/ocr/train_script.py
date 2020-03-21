@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
     transforms = get_transforms(device)
 
-    dataset = CommonDataset(transforms = transforms, cached=False)
+    dataset = CommonDataset(transforms=transforms, cached=False)
     train_dataset = dataset.Train
 
     train_loader = DataLoader(
