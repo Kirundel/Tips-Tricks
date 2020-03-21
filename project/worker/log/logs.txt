@@ -1,0 +1,1207 @@
+[2020-03-21 14:04:19,359][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:04:19,364][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:04:19,375][ERROR] - __main__: [Errno 2] No such file or directory: 'logs/checkpoints/best_full.pth'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 67, in <module>
+    project = CNDProject("CNDProject", sys.argv[2], sys.argv[3])
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 39, in __init__
+    self.state, save_path, fps, frame_size, coord)
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 61, in __init__
+    self.predictor = Predictor()
+  File "/mnt/d/HSE/Tips-Tricks/project/cnd/ocr/predictor.py", line 14, in __init__
+    model_data = torch.load('logs/checkpoints/best_full.pth')
+  File "/home/kirundel/.local/lib/python3.6/site-packages/torch/serialization.py", line 525, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/kirundel/.local/lib/python3.6/site-packages/torch/serialization.py", line 212, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/kirundel/.local/lib/python3.6/site-packages/torch/serialization.py", line 193, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'logs/checkpoints/best_full.pth'
+[2020-03-21 14:05:31,308][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:05:31,313][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:05:31,325][ERROR] - __main__: 'str' object is not callable
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 67, in <module>
+    project = CNDProject("CNDProject", sys.argv[2], sys.argv[3])
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 39, in __init__
+    self.state, save_path, fps, frame_size, coord)
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 61, in __init__
+    self.predictor = Predictor()
+  File "/mnt/d/HSE/Tips-Tricks/project/cnd/ocr/predictor.py", line 14, in __init__
+    model_data = torch.load(pardir(__file__) + '/logs/checkpoints/best_full.pth')
+TypeError: 'str' object is not callable
+[2020-03-21 14:06:22,796][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:06:22,801][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:06:22,824][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:06:22,824][INFO] - CNDProject: Start Project
+[2020-03-21 14:06:22,824][INFO] - CNDProject: Start project act start
+[2020-03-21 14:06:22,824][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:06:22,839][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 14:06:22,839][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:06:22,850][ERROR] - VisualizeStream: 'Predictor' object is not callable
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 74, in _visualize
+    prediction = self.predictor(frame)
+TypeError: 'Predictor' object is not callable
+[2020-03-21 14:06:22,851][INFO] - CNDProject: Stop Project
+[2020-03-21 14:06:22,851][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:06:22,852][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:06:22,853][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:06:22,853][INFO] - CNDProject: Stop Project
+[2020-03-21 14:06:22,854][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:06:22,854][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:06:22,854][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:07:12,100][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:07:12,105][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:07:12,129][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:07:12,129][INFO] - CNDProject: Start Project
+[2020-03-21 14:07:12,130][INFO] - CNDProject: Start project act start
+[2020-03-21 14:07:12,130][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:07:12,137][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 14:07:12,137][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:07:12,180][ERROR] - VisualizeStream: __call__() missing 1 required positional argument: 'text'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 75, in _visualize
+    frame = self.visualizer(prediction)
+TypeError: __call__() missing 1 required positional argument: 'text'
+[2020-03-21 14:07:12,180][INFO] - CNDProject: Stop Project
+[2020-03-21 14:07:12,180][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:07:12,182][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:07:12,183][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:07:12,184][INFO] - CNDProject: Stop Project
+[2020-03-21 14:07:12,184][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:07:12,184][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:07:12,184][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:07:25,678][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:07:25,683][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:07:25,705][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:07:25,706][INFO] - CNDProject: Start Project
+[2020-03-21 14:07:25,706][INFO] - CNDProject: Start project act start
+[2020-03-21 14:07:25,706][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:07:25,713][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 14:07:25,713][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:07:32,331][ERROR] - VisualizeStream: No frame found
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 73, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 26, in read
+    raise Exception("No frame found")
+Exception: No frame found
+[2020-03-21 14:07:32,332][INFO] - CNDProject: Stop Project
+[2020-03-21 14:07:32,332][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:07:32,335][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:07:32,336][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:07:32,336][INFO] - CNDProject: Stop Project
+[2020-03-21 14:07:32,336][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:07:32,336][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:07:32,336][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:09:26,579][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:09:26,584][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:09:26,608][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:09:26,608][INFO] - CNDProject: Start Project
+[2020-03-21 14:09:26,608][INFO] - CNDProject: Start project act start
+[2020-03-21 14:09:26,608][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:09:26,615][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 14:09:26,615][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:11:51,740][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:11:51,745][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:11:51,768][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:11:51,768][INFO] - CNDProject: Start Project
+[2020-03-21 14:11:51,768][INFO] - CNDProject: Start project act start
+[2020-03-21 14:11:51,768][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:11:51,775][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 14:11:51,775][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:11:58,376][INFO] - CNDProject: Stop Project
+[2020-03-21 14:11:58,377][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:11:58,379][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:11:58,380][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:11:58,380][INFO] - CNDProject: Stop Project
+[2020-03-21 14:11:58,380][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:11:58,380][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:11:58,381][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:12:40,242][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:12:40,247][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:12:40,270][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:12:40,270][INFO] - CNDProject: Start Project
+[2020-03-21 14:12:40,270][INFO] - CNDProject: Start project act start
+[2020-03-21 14:12:40,270][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:12:40,277][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 14:12:40,277][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:12:46,872][INFO] - CNDProject: Stop Project
+[2020-03-21 14:12:46,872][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:12:46,874][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:12:46,875][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:12:46,876][INFO] - CNDProject: Stop Project
+[2020-03-21 14:12:46,876][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:12:46,876][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:12:46,876][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:18:18,236][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:18:18,241][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:18:18,263][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:18:18,263][INFO] - CNDProject: Start Project
+[2020-03-21 14:18:18,264][INFO] - CNDProject: Start project act start
+[2020-03-21 14:18:18,264][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:18:18,270][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 14:18:18,271][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:18:26,299][INFO] - CNDProject: Stop Project
+[2020-03-21 14:18:26,299][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:18:26,301][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:18:26,302][ERROR] - __main__: 'cv2.VideoWriter' object has no attribute 'save'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 68, in <module>
+    project.start()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 52, in start
+    self.stop()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 59, in stop
+    self.visualize_stream.stop()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 97, in stop
+    self.out_video.stop()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_writer.py", line 23, in stop
+    self.video.save()
+AttributeError: 'cv2.VideoWriter' object has no attribute 'save'
+[2020-03-21 14:18:26,302][INFO] - CNDProject: Stop Project
+[2020-03-21 14:18:26,302][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:18:26,302][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:18:36,384][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:18:36,389][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:18:36,413][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:18:36,413][INFO] - CNDProject: Start Project
+[2020-03-21 14:18:36,413][INFO] - CNDProject: Start project act start
+[2020-03-21 14:18:36,413][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:18:36,420][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 14:18:36,420][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:18:44,637][INFO] - CNDProject: Stop Project
+[2020-03-21 14:18:44,637][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:18:44,640][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:18:44,641][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:18:44,641][INFO] - CNDProject: Stop Project
+[2020-03-21 14:18:44,641][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:18:44,642][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:18:44,642][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:19:29,602][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:19:29,607][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:19:29,630][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:19:29,630][INFO] - CNDProject: Start Project
+[2020-03-21 14:19:29,631][INFO] - CNDProject: Start project act start
+[2020-03-21 14:19:29,631][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:19:29,638][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 14:19:29,638][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:19:37,747][INFO] - CNDProject: Stop Project
+[2020-03-21 14:19:37,748][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:19:37,750][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:19:37,751][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:19:37,752][INFO] - CNDProject: Stop Project
+[2020-03-21 14:19:37,752][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:19:37,752][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:19:37,752][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:32:59,109][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:32:59,114][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:32:59,139][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:32:59,139][ERROR] - __main__: 'VisualizeStream' object has no attribute 'out_file'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 67, in <module>
+    project = CNDProject("CNDProject", sys.argv[2], sys.argv[3])
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 39, in __init__
+    self.state, save_path, fps, frame_size, coord)
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 66, in __init__
+    self.out_file()
+AttributeError: 'VisualizeStream' object has no attribute 'out_file'
+[2020-03-21 14:34:46,417][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:34:46,422][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:34:46,459][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:34:46,459][ERROR] - __main__: 'VisualizeStream' object has no attribute 'out_file'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 67, in <module>
+    project = CNDProject("CNDProject", sys.argv[2], sys.argv[3])
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 39, in __init__
+    self.state, save_path, fps, frame_size, coord)
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 66, in __init__
+    self.out_file()
+AttributeError: 'VisualizeStream' object has no attribute 'out_file'
+[2020-03-21 14:35:18,445][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:35:18,450][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:35:18,479][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:35:18,479][INFO] - CNDProject: Start Project
+[2020-03-21 14:35:18,479][INFO] - CNDProject: Start project act start
+[2020-03-21 14:35:18,479][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:35:18,492][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 14:35:18,492][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:35:30,782][INFO] - CNDProject: Stop Project
+[2020-03-21 14:35:30,782][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:35:30,787][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:35:30,789][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:35:30,789][INFO] - CNDProject: Stop Project
+[2020-03-21 14:35:30,789][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:35:30,789][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:35:30,789][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:35:38,061][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:35:38,066][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:35:38,096][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:35:38,097][INFO] - CNDProject: Start Project
+[2020-03-21 14:35:38,097][INFO] - CNDProject: Start project act start
+[2020-03-21 14:35:38,097][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:35:38,114][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 14:35:38,115][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:35:54,076][INFO] - CNDProject: Stop Project
+[2020-03-21 14:35:54,076][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:35:54,078][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:35:54,082][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:35:54,082][INFO] - CNDProject: Stop Project
+[2020-03-21 14:35:54,082][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:35:54,082][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:35:54,082][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:36:00,631][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:36:00,636][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:36:00,660][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:36:00,660][INFO] - CNDProject: Start Project
+[2020-03-21 14:36:00,660][INFO] - CNDProject: Start project act start
+[2020-03-21 14:36:00,660][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:36:00,677][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 14:36:00,678][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:36:21,090][INFO] - CNDProject: Stop Project
+[2020-03-21 14:36:21,091][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:36:21,096][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:36:21,099][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:36:21,100][INFO] - CNDProject: Stop Project
+[2020-03-21 14:36:21,100][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:36:21,101][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:36:21,101][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:37:18,219][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:37:18,226][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:37:18,267][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:37:18,267][INFO] - CNDProject: Start Project
+[2020-03-21 14:37:18,267][INFO] - CNDProject: Start project act start
+[2020-03-21 14:37:18,267][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:37:18,287][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 14:37:18,288][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:37:20,341][INFO] - CNDProject: Stop Project
+[2020-03-21 14:37:20,341][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:37:20,343][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:37:20,345][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:37:20,345][INFO] - CNDProject: Stop Project
+[2020-03-21 14:37:20,345][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:37:20,346][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:37:20,346][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:38:36,504][INFO] - VideoReader: Create VideoReader
+[2020-03-21 14:38:36,513][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 14:38:36,555][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 14:38:36,556][INFO] - CNDProject: Start Project
+[2020-03-21 14:38:36,556][INFO] - CNDProject: Start project act start
+[2020-03-21 14:38:36,556][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:38:36,571][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 14:38:36,571][INFO] - VideoReader: Start VideoReader
+[2020-03-21 14:39:01,205][INFO] - CNDProject: Stop Project
+[2020-03-21 14:39:01,205][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:39:01,208][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:39:01,209][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 14:39:01,209][INFO] - CNDProject: Stop Project
+[2020-03-21 14:39:01,210][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 14:39:01,210][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 14:39:01,210][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:03,693][INFO] - __main__: BEGIN /Videos/IMG_1002.MOV
+[2020-03-21 15:03:03,694][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:03,694][ERROR] - __main__: __init__() missing 1 required positional argument: 'answer'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 79, in <module>
+    project = CNDProject("CNDProject", name, 'out' + name, answer=answer)
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 40, in __init__
+    self.state, save_path, fps, frame_size, coord)
+TypeError: __init__() missing 1 required positional argument: 'answer'
+[2020-03-21 15:03:03,694][INFO] - __main__: BEGIN /Videos/IMG_1003.MOV
+[2020-03-21 15:03:03,694][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:03,694][ERROR] - __main__: __init__() missing 1 required positional argument: 'answer'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 79, in <module>
+    project = CNDProject("CNDProject", name, 'out' + name, answer=answer)
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 40, in __init__
+    self.state, save_path, fps, frame_size, coord)
+TypeError: __init__() missing 1 required positional argument: 'answer'
+[2020-03-21 15:03:03,695][INFO] - __main__: BEGIN /Videos/IMG_1004.MOV
+[2020-03-21 15:03:03,695][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:03,695][ERROR] - __main__: __init__() missing 1 required positional argument: 'answer'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 79, in <module>
+    project = CNDProject("CNDProject", name, 'out' + name, answer=answer)
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 40, in __init__
+    self.state, save_path, fps, frame_size, coord)
+TypeError: __init__() missing 1 required positional argument: 'answer'
+[2020-03-21 15:03:03,695][INFO] - __main__: BEGIN /Videos/IMG_1009.MOV
+[2020-03-21 15:03:03,695][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:03,695][ERROR] - __main__: __init__() missing 1 required positional argument: 'answer'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 79, in <module>
+    project = CNDProject("CNDProject", name, 'out' + name, answer=answer)
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 40, in __init__
+    self.state, save_path, fps, frame_size, coord)
+TypeError: __init__() missing 1 required positional argument: 'answer'
+[2020-03-21 15:03:03,696][INFO] - __main__: BEGIN /Videos/IMG_1010.MOV
+[2020-03-21 15:03:03,696][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:03,696][ERROR] - __main__: __init__() missing 1 required positional argument: 'answer'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 79, in <module>
+    project = CNDProject("CNDProject", name, 'out' + name, answer=answer)
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 40, in __init__
+    self.state, save_path, fps, frame_size, coord)
+TypeError: __init__() missing 1 required positional argument: 'answer'
+[2020-03-21 15:03:03,696][INFO] - __main__: BEGIN /Videos/IMG_1012.MOV
+[2020-03-21 15:03:03,696][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:03,696][ERROR] - __main__: __init__() missing 1 required positional argument: 'answer'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 79, in <module>
+    project = CNDProject("CNDProject", name, 'out' + name, answer=answer)
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 40, in __init__
+    self.state, save_path, fps, frame_size, coord)
+TypeError: __init__() missing 1 required positional argument: 'answer'
+[2020-03-21 15:03:03,696][INFO] - __main__: BEGIN /Videos/IMG_1013.MOV
+[2020-03-21 15:03:03,696][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:03,697][ERROR] - __main__: __init__() missing 1 required positional argument: 'answer'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 79, in <module>
+    project = CNDProject("CNDProject", name, 'out' + name, answer=answer)
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 40, in __init__
+    self.state, save_path, fps, frame_size, coord)
+TypeError: __init__() missing 1 required positional argument: 'answer'
+[2020-03-21 15:03:03,697][INFO] - __main__: BEGIN /Videos/IMG_1014.MOV
+[2020-03-21 15:03:03,697][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:03,697][ERROR] - __main__: __init__() missing 1 required positional argument: 'answer'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 79, in <module>
+    project = CNDProject("CNDProject", name, 'out' + name, answer=answer)
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/run.py", line 40, in __init__
+    self.state, save_path, fps, frame_size, coord)
+TypeError: __init__() missing 1 required positional argument: 'answer'
+[2020-03-21 15:03:41,807][INFO] - __main__: BEGIN /Videos/IMG_1002.MOV
+[2020-03-21 15:03:41,808][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:41,812][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:03:41,834][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:03:41,835][INFO] - CNDProject: Start Project
+[2020-03-21 15:03:41,835][INFO] - CNDProject: Start project act start
+[2020-03-21 15:03:41,835][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,836][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:03:41,836][ERROR] - VideoReader: Video is not open!
+[2020-03-21 15:03:41,836][ERROR] - VisualizeStream: No video found
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 76, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 30, in read
+    raise Exception("No video found")
+Exception: No video found
+[2020-03-21 15:03:41,837][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,838][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,838][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,838][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,839][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,839][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,840][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,840][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,840][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,840][INFO] - __main__: BEGIN /Videos/IMG_1003.MOV
+[2020-03-21 15:03:41,840][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:41,841][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:03:41,856][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:03:41,856][INFO] - CNDProject: Start Project
+[2020-03-21 15:03:41,856][INFO] - CNDProject: Start project act start
+[2020-03-21 15:03:41,857][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,857][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:03:41,857][ERROR] - VideoReader: Video is not open!
+[2020-03-21 15:03:41,857][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,857][ERROR] - VisualizeStream: No video found
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 76, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 30, in read
+    raise Exception("No video found")
+Exception: No video found
+[2020-03-21 15:03:41,858][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,858][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,858][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,859][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,859][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,859][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,859][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,859][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,860][INFO] - __main__: BEGIN /Videos/IMG_1004.MOV
+[2020-03-21 15:03:41,860][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:41,860][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:03:41,872][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:03:41,873][INFO] - CNDProject: Start Project
+[2020-03-21 15:03:41,873][INFO] - CNDProject: Start project act start
+[2020-03-21 15:03:41,873][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,873][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:03:41,874][ERROR] - VideoReader: Video is not open!
+[2020-03-21 15:03:41,874][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,874][ERROR] - VisualizeStream: No video found
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 76, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 30, in read
+    raise Exception("No video found")
+Exception: No video found
+[2020-03-21 15:03:41,874][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,875][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,875][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,875][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,876][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,876][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,876][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,876][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,876][INFO] - __main__: BEGIN /Videos/IMG_1009.MOV
+[2020-03-21 15:03:41,876][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:41,877][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:03:41,889][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:03:41,889][INFO] - CNDProject: Start Project
+[2020-03-21 15:03:41,889][INFO] - CNDProject: Start project act start
+[2020-03-21 15:03:41,889][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,890][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:03:41,890][ERROR] - VideoReader: Video is not open!
+[2020-03-21 15:03:41,890][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,890][ERROR] - VisualizeStream: No video found
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 76, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 30, in read
+    raise Exception("No video found")
+Exception: No video found
+[2020-03-21 15:03:41,891][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,891][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,891][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,892][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,892][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,892][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,892][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,892][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,892][INFO] - __main__: BEGIN /Videos/IMG_1010.MOV
+[2020-03-21 15:03:41,893][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:41,893][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:03:41,905][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:03:41,905][INFO] - CNDProject: Start Project
+[2020-03-21 15:03:41,905][INFO] - CNDProject: Start project act start
+[2020-03-21 15:03:41,906][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,906][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:03:41,906][ERROR] - VideoReader: Video is not open!
+[2020-03-21 15:03:41,906][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,907][ERROR] - VisualizeStream: No video found
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 76, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 30, in read
+    raise Exception("No video found")
+Exception: No video found
+[2020-03-21 15:03:41,907][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,907][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,907][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,908][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,909][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,909][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,909][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,909][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,909][INFO] - __main__: BEGIN /Videos/IMG_1012.MOV
+[2020-03-21 15:03:41,909][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:41,910][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:03:41,922][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:03:41,922][INFO] - CNDProject: Start Project
+[2020-03-21 15:03:41,923][INFO] - CNDProject: Start project act start
+[2020-03-21 15:03:41,923][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,923][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:03:41,923][ERROR] - VideoReader: Video is not open!
+[2020-03-21 15:03:41,923][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,924][ERROR] - VisualizeStream: No video found
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 76, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 30, in read
+    raise Exception("No video found")
+Exception: No video found
+[2020-03-21 15:03:41,924][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,924][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,924][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,925][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,925][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,926][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,926][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,926][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,926][INFO] - __main__: BEGIN /Videos/IMG_1013.MOV
+[2020-03-21 15:03:41,926][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:41,954][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:03:41,969][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:03:41,969][INFO] - CNDProject: Start Project
+[2020-03-21 15:03:41,969][INFO] - CNDProject: Start project act start
+[2020-03-21 15:03:41,969][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,970][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:03:41,970][ERROR] - VideoReader: Video is not open!
+[2020-03-21 15:03:41,970][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,970][ERROR] - VisualizeStream: No video found
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 76, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 30, in read
+    raise Exception("No video found")
+Exception: No video found
+[2020-03-21 15:03:41,971][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,971][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,971][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,972][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,973][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,973][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,973][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,973][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,973][INFO] - __main__: BEGIN /Videos/IMG_1014.MOV
+[2020-03-21 15:03:41,973][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:03:41,974][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:03:41,986][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:03:41,986][INFO] - CNDProject: Start Project
+[2020-03-21 15:03:41,986][INFO] - CNDProject: Start project act start
+[2020-03-21 15:03:41,986][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,987][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:03:41,987][ERROR] - VideoReader: Video is not open!
+[2020-03-21 15:03:41,987][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:03:41,987][ERROR] - VisualizeStream: No video found
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 76, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 30, in read
+    raise Exception("No video found")
+Exception: No video found
+[2020-03-21 15:03:41,988][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,988][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,988][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,989][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:03:41,989][INFO] - CNDProject: Stop Project
+[2020-03-21 15:03:41,989][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:03:41,989][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:03:41,989][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:04:51,448][INFO] - __main__: BEGIN ./Videos/IMG_1002.MOV
+[2020-03-21 15:04:51,448][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:04:51,452][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:04:51,475][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:04:51,475][INFO] - CNDProject: Start Project
+[2020-03-21 15:04:51,475][INFO] - CNDProject: Start project act start
+[2020-03-21 15:04:51,475][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:04:51,487][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:04:51,487][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:05:01,616][INFO] - CNDProject: Stop Project
+[2020-03-21 15:05:01,617][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:05:01,619][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:05:01,621][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:05:01,621][INFO] - CNDProject: Stop Project
+[2020-03-21 15:05:01,621][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:05:01,621][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:05:01,622][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:05:01,622][INFO] - __main__: BEGIN ./Videos/IMG_1003.MOV
+[2020-03-21 15:05:01,622][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:05:01,623][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:05:01,638][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:05:01,638][INFO] - CNDProject: Start Project
+[2020-03-21 15:05:01,638][INFO] - CNDProject: Start project act start
+[2020-03-21 15:05:01,638][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:05:01,646][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:05:01,646][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:05:14,755][INFO] - CNDProject: Stop Project
+[2020-03-21 15:05:14,755][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:05:14,758][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:05:14,759][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:05:14,759][INFO] - CNDProject: Stop Project
+[2020-03-21 15:05:14,759][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:05:14,759][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:05:14,759][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:05:14,760][INFO] - __main__: BEGIN ./Videos/IMG_1004.MOV
+[2020-03-21 15:05:14,760][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:05:14,760][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:05:14,773][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:05:14,774][INFO] - CNDProject: Start Project
+[2020-03-21 15:05:14,774][INFO] - CNDProject: Start project act start
+[2020-03-21 15:05:14,774][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:05:14,785][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:05:14,786][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:05:31,631][INFO] - CNDProject: Stop Project
+[2020-03-21 15:05:31,632][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:05:31,634][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:05:31,635][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:05:31,635][INFO] - CNDProject: Stop Project
+[2020-03-21 15:05:31,636][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:05:31,636][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:05:31,636][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:05:31,636][INFO] - __main__: BEGIN ./Videos/IMG_1009.MOV
+[2020-03-21 15:05:31,636][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:05:31,637][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:05:31,649][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:05:31,649][INFO] - CNDProject: Start Project
+[2020-03-21 15:05:31,650][INFO] - CNDProject: Start project act start
+[2020-03-21 15:05:31,650][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:05:31,664][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:05:31,664][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:05:33,360][INFO] - CNDProject: Stop Project
+[2020-03-21 15:05:33,360][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:05:33,362][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:05:33,363][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:05:33,363][INFO] - CNDProject: Stop Project
+[2020-03-21 15:05:33,364][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:05:33,364][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:05:33,364][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:05:33,364][INFO] - __main__: BEGIN ./Videos/IMG_1010.MOV
+[2020-03-21 15:05:33,364][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:05:33,365][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:05:33,376][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:05:33,376][INFO] - CNDProject: Start Project
+[2020-03-21 15:05:33,377][INFO] - CNDProject: Start project act start
+[2020-03-21 15:05:33,377][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:05:33,386][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:05:33,386][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:05:54,772][INFO] - CNDProject: Stop Project
+[2020-03-21 15:05:54,773][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:05:54,775][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:05:54,776][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:05:54,777][INFO] - CNDProject: Stop Project
+[2020-03-21 15:05:54,777][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:05:54,777][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:05:54,777][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:05:54,777][INFO] - __main__: BEGIN ./Videos/IMG_1012.MOV
+[2020-03-21 15:05:54,777][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:05:54,778][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:05:54,790][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:05:54,790][INFO] - CNDProject: Start Project
+[2020-03-21 15:05:54,790][INFO] - CNDProject: Start project act start
+[2020-03-21 15:05:54,791][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:05:54,806][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:05:54,806][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:05:59,503][INFO] - CNDProject: Stop Project
+[2020-03-21 15:05:59,503][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:05:59,506][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:05:59,509][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:05:59,509][INFO] - CNDProject: Stop Project
+[2020-03-21 15:05:59,509][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:05:59,510][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:05:59,510][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:05:59,510][INFO] - __main__: BEGIN ./Videos/IMG_1013.MOV
+[2020-03-21 15:05:59,510][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:05:59,511][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:05:59,522][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:05:59,522][INFO] - CNDProject: Start Project
+[2020-03-21 15:05:59,522][INFO] - CNDProject: Start project act start
+[2020-03-21 15:05:59,522][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:05:59,533][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:05:59,533][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:06:13,849][INFO] - CNDProject: Stop Project
+[2020-03-21 15:06:13,849][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:06:13,853][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:06:13,858][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:06:13,858][INFO] - CNDProject: Stop Project
+[2020-03-21 15:06:13,858][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:06:13,859][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:06:13,859][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:06:13,859][INFO] - __main__: BEGIN ./Videos/IMG_1014.MOV
+[2020-03-21 15:06:13,859][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:06:13,860][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:06:13,873][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:06:13,874][INFO] - CNDProject: Start Project
+[2020-03-21 15:06:13,874][INFO] - CNDProject: Start project act start
+[2020-03-21 15:06:13,874][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:06:13,886][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:06:13,886][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:06:20,124][INFO] - CNDProject: Stop Project
+[2020-03-21 15:06:20,124][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:06:20,126][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:06:20,130][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:06:20,130][INFO] - CNDProject: Stop Project
+[2020-03-21 15:06:20,130][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:06:20,130][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:06:20,130][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:16:24,239][INFO] - __main__: BEGIN ./Videos/IMG_1002.MOV
+[2020-03-21 15:16:24,239][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:16:24,244][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:16:24,267][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:16:24,267][INFO] - CNDProject: Start Project
+[2020-03-21 15:16:24,267][INFO] - CNDProject: Start project act start
+[2020-03-21 15:16:24,267][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:16:24,279][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:16:24,279][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:16:34,474][INFO] - CNDProject: Stop Project
+[2020-03-21 15:16:34,474][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:16:34,477][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:16:34,478][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:16:34,479][INFO] - CNDProject: Stop Project
+[2020-03-21 15:16:34,479][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:16:34,479][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:16:34,479][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:16:34,479][INFO] - __main__: BEGIN ./Videos/IMG_1003.MOV
+[2020-03-21 15:16:34,479][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:16:34,480][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:16:34,495][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:16:34,496][INFO] - CNDProject: Start Project
+[2020-03-21 15:16:34,496][INFO] - CNDProject: Start project act start
+[2020-03-21 15:16:34,496][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:16:34,504][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:16:34,504][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:16:47,905][INFO] - CNDProject: Stop Project
+[2020-03-21 15:16:47,906][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:16:47,908][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:16:47,928][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:16:47,928][INFO] - CNDProject: Stop Project
+[2020-03-21 15:16:47,929][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:16:47,929][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:16:47,929][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:16:47,929][INFO] - __main__: BEGIN ./Videos/IMG_1004.MOV
+[2020-03-21 15:16:47,929][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:16:47,931][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:16:47,944][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:16:47,944][INFO] - CNDProject: Start Project
+[2020-03-21 15:16:47,944][INFO] - CNDProject: Start project act start
+[2020-03-21 15:16:47,944][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:16:47,956][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:16:47,956][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:19:25,907][INFO] - __main__: BEGIN ./Videos/IMG_1002.MOV
+[2020-03-21 15:19:25,907][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:19:25,912][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:19:25,934][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:19:25,935][INFO] - CNDProject: Start Project
+[2020-03-21 15:19:25,935][INFO] - CNDProject: Start project act start
+[2020-03-21 15:19:25,935][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:19:25,935][ERROR] - VisualizeStream: 'VideoReader' object has no attribute 'video'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 82, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 18, in read
+    if self.video.isOpened():
+AttributeError: 'VideoReader' object has no attribute 'video'
+[2020-03-21 15:19:25,936][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:19:25,947][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:25,948][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:25,949][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:25,950][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:25,950][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:25,950][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:25,950][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:25,950][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:25,951][INFO] - __main__: BEGIN ./Videos/IMG_1003.MOV
+[2020-03-21 15:19:25,951][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:19:25,952][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:19:25,967][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:19:25,967][INFO] - CNDProject: Start Project
+[2020-03-21 15:19:25,968][INFO] - CNDProject: Start project act start
+[2020-03-21 15:19:25,968][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:19:25,968][ERROR] - VisualizeStream: 'VideoReader' object has no attribute 'video'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 82, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 18, in read
+    if self.video.isOpened():
+AttributeError: 'VideoReader' object has no attribute 'video'
+[2020-03-21 15:19:25,968][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:19:25,976][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:25,976][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:25,978][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:25,979][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:25,979][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:25,979][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:25,979][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:25,979][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:25,979][INFO] - __main__: BEGIN ./Videos/IMG_1004.MOV
+[2020-03-21 15:19:25,979][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:19:25,980][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:19:25,992][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:19:25,992][INFO] - CNDProject: Start Project
+[2020-03-21 15:19:25,992][INFO] - CNDProject: Start project act start
+[2020-03-21 15:19:25,992][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:19:25,993][ERROR] - VisualizeStream: 'VideoReader' object has no attribute 'video'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 82, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 18, in read
+    if self.video.isOpened():
+AttributeError: 'VideoReader' object has no attribute 'video'
+[2020-03-21 15:19:25,993][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:19:26,004][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:26,005][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:26,006][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:26,007][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:26,007][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:26,007][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:26,007][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:26,007][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:26,007][INFO] - __main__: BEGIN ./Videos/IMG_1009.MOV
+[2020-03-21 15:19:26,008][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:19:26,009][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:19:26,020][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:19:26,021][INFO] - CNDProject: Start Project
+[2020-03-21 15:19:26,021][INFO] - CNDProject: Start project act start
+[2020-03-21 15:19:26,021][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:19:26,021][ERROR] - VisualizeStream: 'VideoReader' object has no attribute 'video'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 82, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 18, in read
+    if self.video.isOpened():
+AttributeError: 'VideoReader' object has no attribute 'video'
+[2020-03-21 15:19:26,021][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:19:26,035][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:26,035][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:26,036][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:26,037][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:26,037][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:26,037][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:26,038][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:26,038][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:26,038][INFO] - __main__: BEGIN ./Videos/IMG_1010.MOV
+[2020-03-21 15:19:26,038][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:19:26,040][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:19:26,054][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:19:26,054][INFO] - CNDProject: Start Project
+[2020-03-21 15:19:26,054][INFO] - CNDProject: Start project act start
+[2020-03-21 15:19:26,054][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:19:26,054][ERROR] - VisualizeStream: 'VideoReader' object has no attribute 'video'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 82, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 18, in read
+    if self.video.isOpened():
+AttributeError: 'VideoReader' object has no attribute 'video'
+[2020-03-21 15:19:26,055][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:19:26,064][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:26,064][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:26,065][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:26,066][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:26,066][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:26,066][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:26,067][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:26,067][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:26,067][INFO] - __main__: BEGIN ./Videos/IMG_1012.MOV
+[2020-03-21 15:19:26,067][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:19:26,068][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:19:26,080][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:19:26,080][INFO] - CNDProject: Start Project
+[2020-03-21 15:19:26,080][INFO] - CNDProject: Start project act start
+[2020-03-21 15:19:26,080][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:19:26,081][ERROR] - VisualizeStream: 'VideoReader' object has no attribute 'video'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 82, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 18, in read
+    if self.video.isOpened():
+AttributeError: 'VideoReader' object has no attribute 'video'
+[2020-03-21 15:19:26,081][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:19:26,096][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:26,096][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:26,097][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:26,098][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:26,098][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:26,098][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:26,098][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:26,098][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:26,098][INFO] - __main__: BEGIN ./Videos/IMG_1013.MOV
+[2020-03-21 15:19:26,099][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:19:26,100][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:19:26,111][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:19:26,112][INFO] - CNDProject: Start Project
+[2020-03-21 15:19:26,112][INFO] - CNDProject: Start project act start
+[2020-03-21 15:19:26,112][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:19:26,112][ERROR] - VisualizeStream: 'VideoReader' object has no attribute 'video'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 82, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 18, in read
+    if self.video.isOpened():
+AttributeError: 'VideoReader' object has no attribute 'video'
+[2020-03-21 15:19:26,112][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:19:26,124][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:26,124][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:26,125][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:26,126][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:26,126][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:26,127][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:26,127][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:26,127][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:26,127][INFO] - __main__: BEGIN ./Videos/IMG_1014.MOV
+[2020-03-21 15:19:26,127][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:19:26,128][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:19:26,140][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:19:26,140][INFO] - CNDProject: Start Project
+[2020-03-21 15:19:26,140][INFO] - CNDProject: Start project act start
+[2020-03-21 15:19:26,141][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:19:26,141][ERROR] - VisualizeStream: 'VideoReader' object has no attribute 'video'
+Traceback (most recent call last):
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/visualize_stream.py", line 82, in _visualize
+    frame = self.in_video.read()
+  File "/mnt/d/HSE/Tips-Tricks/project/worker/video_reader.py", line 18, in read
+    if self.video.isOpened():
+AttributeError: 'VideoReader' object has no attribute 'video'
+[2020-03-21 15:19:26,141][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:19:26,154][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:26,154][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:26,156][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:26,157][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:19:26,158][INFO] - CNDProject: Stop Project
+[2020-03-21 15:19:26,158][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:19:26,158][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:19:26,158][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:20:24,520][INFO] - __main__: BEGIN ./Videos/IMG_1002.MOV
+[2020-03-21 15:20:24,520][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:20:24,525][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:20:24,547][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:20:24,547][INFO] - CNDProject: Start Project
+[2020-03-21 15:20:24,548][INFO] - CNDProject: Start project act start
+[2020-03-21 15:20:24,548][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:20:24,559][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:20:24,559][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:20:35,280][INFO] - CNDProject: Stop Project
+[2020-03-21 15:20:35,281][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:20:35,283][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:20:35,285][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:20:35,285][INFO] - CNDProject: Stop Project
+[2020-03-21 15:20:35,285][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:20:35,285][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:20:35,285][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:20:35,285][INFO] - __main__: BEGIN ./Videos/IMG_1003.MOV
+[2020-03-21 15:20:35,285][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:20:35,286][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:20:35,302][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:20:35,302][INFO] - CNDProject: Start Project
+[2020-03-21 15:20:35,303][INFO] - CNDProject: Start project act start
+[2020-03-21 15:20:35,303][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:20:35,311][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:20:35,312][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:20:48,477][INFO] - CNDProject: Stop Project
+[2020-03-21 15:20:48,477][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:20:48,480][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:20:48,481][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:20:48,481][INFO] - CNDProject: Stop Project
+[2020-03-21 15:20:48,482][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:20:48,482][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:20:48,482][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:20:48,482][INFO] - __main__: BEGIN ./Videos/IMG_1004.MOV
+[2020-03-21 15:20:48,482][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:20:48,483][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:20:48,494][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:20:48,494][INFO] - CNDProject: Start Project
+[2020-03-21 15:20:48,495][INFO] - CNDProject: Start project act start
+[2020-03-21 15:20:48,495][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:20:48,506][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:20:48,506][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:21:04,186][INFO] - CNDProject: Stop Project
+[2020-03-21 15:21:04,186][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:21:04,189][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:21:04,192][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:21:04,192][INFO] - CNDProject: Stop Project
+[2020-03-21 15:21:04,192][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:21:04,192][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:21:04,192][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:21:04,193][INFO] - __main__: BEGIN ./Videos/IMG_1009.MOV
+[2020-03-21 15:21:04,193][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:21:04,193][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:21:04,205][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:21:04,206][INFO] - CNDProject: Start Project
+[2020-03-21 15:21:04,206][INFO] - CNDProject: Start project act start
+[2020-03-21 15:21:04,206][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:21:04,219][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:21:04,219][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:21:05,915][INFO] - CNDProject: Stop Project
+[2020-03-21 15:21:05,915][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:21:05,918][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:21:05,919][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:21:05,919][INFO] - CNDProject: Stop Project
+[2020-03-21 15:21:05,919][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:21:05,919][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:21:05,919][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:21:05,920][INFO] - __main__: BEGIN ./Videos/IMG_1010.MOV
+[2020-03-21 15:21:05,920][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:21:05,920][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:21:05,932][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:21:05,932][INFO] - CNDProject: Start Project
+[2020-03-21 15:21:05,932][INFO] - CNDProject: Start project act start
+[2020-03-21 15:21:05,932][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:21:05,941][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:21:05,942][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:21:21,903][INFO] - CNDProject: Stop Project
+[2020-03-21 15:21:21,903][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:21:21,906][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:21:21,909][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:21:21,910][INFO] - CNDProject: Stop Project
+[2020-03-21 15:21:21,910][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:21:21,910][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:21:21,910][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:21:21,910][INFO] - __main__: BEGIN ./Videos/IMG_1012.MOV
+[2020-03-21 15:21:21,910][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:21:21,911][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:21:21,923][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:21:21,924][INFO] - CNDProject: Start Project
+[2020-03-21 15:21:21,924][INFO] - CNDProject: Start project act start
+[2020-03-21 15:21:21,924][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:21:21,939][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:21:21,939][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:21:27,323][INFO] - CNDProject: Stop Project
+[2020-03-21 15:21:27,323][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:21:27,326][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:21:27,327][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:21:27,327][INFO] - CNDProject: Stop Project
+[2020-03-21 15:21:27,327][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:21:27,327][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:21:27,327][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:21:27,327][INFO] - __main__: BEGIN ./Videos/IMG_1013.MOV
+[2020-03-21 15:21:27,328][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:21:27,328][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:21:27,340][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:21:27,340][INFO] - CNDProject: Start Project
+[2020-03-21 15:21:27,340][INFO] - CNDProject: Start project act start
+[2020-03-21 15:21:27,341][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:21:27,351][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:21:27,352][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:21:39,554][INFO] - CNDProject: Stop Project
+[2020-03-21 15:21:39,554][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:21:39,557][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:21:39,560][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:21:39,560][INFO] - CNDProject: Stop Project
+[2020-03-21 15:21:39,560][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:21:39,560][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:21:39,560][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:21:39,560][INFO] - __main__: BEGIN ./Videos/IMG_1014.MOV
+[2020-03-21 15:21:39,561][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:21:39,561][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:21:39,573][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:21:39,573][INFO] - CNDProject: Start Project
+[2020-03-21 15:21:39,573][INFO] - CNDProject: Start project act start
+[2020-03-21 15:21:39,573][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:21:39,585][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:21:39,585][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:21:45,383][INFO] - CNDProject: Stop Project
+[2020-03-21 15:21:45,384][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:21:45,386][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:21:45,389][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:21:45,390][INFO] - CNDProject: Stop Project
+[2020-03-21 15:21:45,390][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:21:45,390][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:21:45,390][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:23:14,771][INFO] - __main__: BEGIN ./Videos/IMG_1002.MOV
+[2020-03-21 15:23:14,771][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:23:14,776][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:23:14,798][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:23:14,798][INFO] - CNDProject: Start Project
+[2020-03-21 15:23:14,798][INFO] - CNDProject: Start project act start
+[2020-03-21 15:23:14,798][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:23:14,809][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:23:14,810][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:23:25,207][INFO] - CNDProject: Stop Project
+[2020-03-21 15:23:25,207][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:23:25,209][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:23:25,211][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:23:25,211][INFO] - CNDProject: Stop Project
+[2020-03-21 15:23:25,211][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:23:25,211][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:23:25,211][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:23:25,212][INFO] - __main__: BEGIN ./Videos/IMG_1003.MOV
+[2020-03-21 15:23:25,212][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:23:25,213][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:23:25,228][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:23:25,228][INFO] - CNDProject: Start Project
+[2020-03-21 15:23:25,228][INFO] - CNDProject: Start project act start
+[2020-03-21 15:23:25,228][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:23:25,236][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:23:25,237][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:23:38,713][INFO] - CNDProject: Stop Project
+[2020-03-21 15:23:38,714][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:23:38,716][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:23:38,717][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:23:38,718][INFO] - CNDProject: Stop Project
+[2020-03-21 15:23:38,718][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:23:38,718][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:23:38,718][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:23:38,718][INFO] - __main__: BEGIN ./Videos/IMG_1004.MOV
+[2020-03-21 15:23:38,718][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:23:38,719][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:23:38,730][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:23:38,731][INFO] - CNDProject: Start Project
+[2020-03-21 15:23:38,731][INFO] - CNDProject: Start project act start
+[2020-03-21 15:23:38,731][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:23:38,742][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:23:38,743][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:23:52,977][INFO] - CNDProject: Stop Project
+[2020-03-21 15:23:52,978][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:23:52,980][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:23:52,984][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:23:52,984][INFO] - CNDProject: Stop Project
+[2020-03-21 15:23:52,984][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:23:52,984][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:23:52,984][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:23:52,984][INFO] - __main__: BEGIN ./Videos/IMG_1009.MOV
+[2020-03-21 15:23:52,984][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:23:52,985][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:23:52,997][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:23:52,997][INFO] - CNDProject: Start Project
+[2020-03-21 15:23:52,997][INFO] - CNDProject: Start project act start
+[2020-03-21 15:23:52,997][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:23:53,010][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:23:53,011][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:23:54,709][INFO] - CNDProject: Stop Project
+[2020-03-21 15:23:54,709][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:23:54,712][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:23:54,713][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:23:54,713][INFO] - CNDProject: Stop Project
+[2020-03-21 15:23:54,713][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:23:54,714][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:23:54,714][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:23:54,714][INFO] - __main__: BEGIN ./Videos/IMG_1010.MOV
+[2020-03-21 15:23:54,714][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:23:54,715][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:23:54,727][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:23:54,728][INFO] - CNDProject: Start Project
+[2020-03-21 15:23:54,728][INFO] - CNDProject: Start project act start
+[2020-03-21 15:23:54,728][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:23:54,737][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:23:54,737][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:24:14,697][INFO] - CNDProject: Stop Project
+[2020-03-21 15:24:14,697][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:24:14,700][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:24:14,701][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:24:14,701][INFO] - CNDProject: Stop Project
+[2020-03-21 15:24:14,702][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:24:14,702][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:24:14,702][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:24:14,702][INFO] - __main__: BEGIN ./Videos/IMG_1012.MOV
+[2020-03-21 15:24:14,702][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:24:14,703][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:24:14,715][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:24:14,715][INFO] - CNDProject: Start Project
+[2020-03-21 15:24:14,715][INFO] - CNDProject: Start project act start
+[2020-03-21 15:24:14,715][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:24:14,730][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:24:14,730][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:24:19,080][INFO] - CNDProject: Stop Project
+[2020-03-21 15:24:19,081][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:24:19,083][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:24:19,086][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:24:19,086][INFO] - CNDProject: Stop Project
+[2020-03-21 15:24:19,087][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:24:19,087][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:24:19,087][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:24:19,087][INFO] - __main__: BEGIN ./Videos/IMG_1013.MOV
+[2020-03-21 15:24:19,087][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:24:19,088][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:24:19,100][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:24:19,100][INFO] - CNDProject: Start Project
+[2020-03-21 15:24:19,100][INFO] - CNDProject: Start project act start
+[2020-03-21 15:24:19,101][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:24:19,111][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:24:19,112][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:24:31,746][INFO] - CNDProject: Stop Project
+[2020-03-21 15:24:31,746][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:24:31,749][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:24:31,752][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:24:31,753][INFO] - CNDProject: Stop Project
+[2020-03-21 15:24:31,753][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:24:31,753][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:24:31,753][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:24:31,753][INFO] - __main__: BEGIN ./Videos/IMG_1014.MOV
+[2020-03-21 15:24:31,753][INFO] - VideoReader: Create VideoReader
+[2020-03-21 15:24:31,754][INFO] - VideoWriter: Create VideoWriter
+[2020-03-21 15:24:31,766][INFO] - VisualizeStream: Create VisualizeStream
+[2020-03-21 15:24:31,766][INFO] - CNDProject: Start Project
+[2020-03-21 15:24:31,766][INFO] - CNDProject: Start project act start
+[2020-03-21 15:24:31,766][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:24:31,778][INFO] - VisualizeStream: Start VisualizeStream
+[2020-03-21 15:24:31,779][INFO] - VideoReader: Start VideoReader
+[2020-03-21 15:24:39,518][INFO] - CNDProject: Stop Project
+[2020-03-21 15:24:39,518][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:24:39,521][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:24:39,522][INFO] - VideoWriter: Stop VideoWriter
+[2020-03-21 15:24:39,522][INFO] - CNDProject: Stop Project
+[2020-03-21 15:24:39,522][INFO] - VideoReader: Stop VideoReader
+[2020-03-21 15:24:39,522][INFO] - VisualizeStream: Stop VisualizeStream
+[2020-03-21 15:24:39,522][INFO] - VideoWriter: Stop VideoWriter

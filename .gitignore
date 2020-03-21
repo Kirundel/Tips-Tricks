@@ -108,3 +108,5 @@ venv.bak/
 /project/cnd/ocr/Dataset/CropNumbers/
 /project/cnd/ocr/Dataset/DatasetOptimization.ipynb
 Generated
+out
+Videos

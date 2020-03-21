@@ -1,17 +1,17 @@
 import torch
 import numpy as np
-from transforms import get_transforms_without_augmentations
-from converter import strLabelConverter
-from model import CRNN
-from common import preds_converter, alphabet, model_parameters
-
+from cnd.ocr.transforms import get_transforms_without_augmentations
+from cnd.ocr.converter import strLabelConverter
+from cnd.ocr.model import CRNN
+from cnd.ocr.common import preds_converter, alphabet, model_parameters
+from os.path import dirname
 
 class Predictor:
     def __init__(self, device="cpu"):
         self.model = CRNN(
             **model_parameters
         )
-        model_data = torch.load('logs/checkpoints/best_full.pth')
+        model_data = torch.load(dirname(__file__) + '/logs/checkpoints/best_full.pth')
         self.model.load_state_dict(model_data['model_state_dict'])
         self.transforms = get_transforms_without_augmentations(device)
         self.converter = strLabelConverter(alphabet)
@@ -28,4 +28,10 @@ class Predictor:
 
         pred = self.model(arr)
         text, _ = preds_converter(self.converter, pred, len(images))
+
+        if len(text) > 6:
+            text = text[:6]
+        elif len(text) == 0:
+            text = ""
+
         return text

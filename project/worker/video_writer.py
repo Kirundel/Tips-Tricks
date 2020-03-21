@@ -14,7 +14,7 @@ class VideoWriter:
         self.logger.info("Create VideoWriter")
 
     def write(self, frame):
-        self.video.write(frame)
+        self.video.write(cv2.resize(frame, self.frame_size))
 
     def start(self, ):
         self.video.open(self.video_path)

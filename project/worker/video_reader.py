@@ -23,7 +23,7 @@ class VideoReader:
             else:
                 if cv2.waitKey(1) & 0xFF == ord('q'):
                     self.stop()
-                raise Exception("No frame found")
+                return None
 
         else:
             self.logger.error("Video is not open!")

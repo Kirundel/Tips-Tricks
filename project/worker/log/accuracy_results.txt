@@ -1,0 +1,50 @@
+{
+    "IMG_1002.MOV": {
+        "Best_Accuracy:": 0.5,
+        "Best_Prediction": "X171BO",
+        "Correct_Result": "M771BT",
+        "Best_Frame_Num": 24
+    },
+    "IMG_1003.MOV": {
+        "Best_Accuracy:": 0.3333333333333333,
+        "Best_Prediction": "X662YH",
+        "Correct_Result": "B622BP",
+        "Best_Frame_Num": 4
+    },
+    "IMG_1004.MOV": {
+        "Best_Accuracy:": 1.0,
+        "Best_Prediction": "Y726HK",
+        "Correct_Result": "Y726HK",
+        "Best_Frame_Num": 106
+    },
+    "IMG_1009.MOV": {
+        "Best_Accuracy:": 0.0,
+        "Best_Prediction": "",
+        "Correct_Result": "P897CX",
+        "Best_Frame_Num": -1
+    },
+    "IMG_1010.MOV": {
+        "Best_Accuracy:": 0.6666666666666666,
+        "Best_Prediction": "C831MO",
+        "Correct_Result": "C841ME",
+        "Best_Frame_Num": 170
+    },
+    "IMG_1012.MOV": {
+        "Best_Accuracy:": 0.5,
+        "Best_Prediction": "K874OE",
+        "Correct_Result": "6874BH",
+        "Best_Frame_Num": 38
+    },
+    "IMG_1013.MOV": {
+        "Best_Accuracy:": 1.0,
+        "Best_Prediction": "K739HC",
+        "Correct_Result": "K739HC",
+        "Best_Frame_Num": 146
+    },
+    "IMG_1014.MOV": {
+        "Best_Accuracy:": 0.5,
+        "Best_Prediction": "O301BA",
+        "Correct_Result": "T401PA",
+        "Best_Frame_Num": 83
+    }
+}

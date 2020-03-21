@@ -14,7 +14,7 @@ class OcrStream:
         self.video_reader = video_reader
         self.ocr_thread = None
 
-        self.predictor = #TODO: Your Predictor
+        self.predictor = Predictor()
 
         self.logger.info("Create OcrStream")
 
